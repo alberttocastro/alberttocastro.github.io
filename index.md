@@ -34,7 +34,7 @@ I develop an internal solution for managing sustain teams in PHP. I also develop
 
 ### February 2019 - Current
 
-DESCRIPTION
+Development and management of websites for presentation, e-commerce, and landing pages for companies, helping them to leverage sales, create an online presence, or make specific campaigns. I use PHP mainly. That's so because it helps to achieve accomplishments easily as I make custom solutions based on the client's needs, using the technology that would make the best results. Currently, most of the jobs are made using wordpress.
 
 </work-experience>
 
@@ -44,7 +44,7 @@ DESCRIPTION
 
 ### August 2020 - November 2020
 
-DESCRIPTION
+Development of software solutions in Java: new functions, increased security, and better performance. Also, I'd implement the applications into the client's servers. I'd also refactor the code to adapt it to best practices.
 
 </work-experience>
 
@@ -54,7 +54,8 @@ DESCRIPTION
 
 ### September 2018 - January 2019
 
-DESCRIPTION
+I helped to improve the flow of activities on the company by implementing software solutions. It helped to improve communication and database registry of clients and contracts.
+I started the development of a custom management system for ISPs, based on the differentiated business model of the company.
 
 </work-experience>
 
@@ -64,7 +65,7 @@ DESCRIPTION
 
 ### January 2018 - December 2018
 
-DESCRIPTION
+I helped to develop an innovative application for sales, using Ruby on Rails. It focused on scalability and user experience. Its focus was on resellers.
 
 </work-experience>
 
@@ -74,7 +75,7 @@ DESCRIPTION
 
 ### March 2015 - September 2015
 
-DESCRIPTION
+I developed and maintained innovative products for hospitals, using Arduino, programmed in C++. I also assembled a 3D printer based on Arduino.
 
 </work-experience>
 
@@ -87,6 +88,20 @@ DESCRIPTION
 <full-page-center>
 
 # EDUCATION
+
+<education-entry>
+## University of the People
+
+### Associate Degree - Computer Science
+
+</education-entry>
+
+<education-entry>
+## Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA)
+
+### Technician - Industrial Automation
+
+</education-entry>
 
 
 </full-page-center>
