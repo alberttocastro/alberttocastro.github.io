@@ -1,16 +1,21 @@
 <template>
-  <div>
-    <div id="sidebar">
-      <div class="col">
-        <div class="row">
-          <span class="py-5">Hi</span>
-        </div>
-      </div>
-      Hello world
+  <div class="d-flex">
+    <div id="nav">
+      <b-nav
+        vertical
+        class="flex-grow-0 flex-shrink-0 vh-100 align-items-center justify-content-center"
+      >
+        <b-nav-item
+          v-for="link in this.$site.themeConfig.sidebar"
+          v-bind:key="link[0]"
+          :href="link[0]"
+          >{{link[1]}}</b-nav-item
+        >
+      </b-nav>
     </div>
-    <div class="container">
+    <b-container fluid>
       <Content />
-    </div>
+    </b-container>
   </div>
 </template>
 
@@ -19,7 +24,13 @@ export default {};
 </script>
 
 <style lang="scss">
-span {
-  color: blue
+#nav,
+#nav > ul {
+  min-width: 225px;
+  max-width: 225px;
+}
+
+#nav > ul {
+  position: fixed;
 }
 </style>
