@@ -2,9 +2,7 @@ module.exports = {
   title: "Work in progress",
   themeConfig: {
     sidebar: [
-      ['/', 'About me (CV)'],
-      ['/kb', 'Knowledgebase'],
-      ['/blog', 'Blog']
+      ['/', 'About me (CV)']
     ]
   },
   module: {
