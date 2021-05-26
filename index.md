@@ -105,3 +105,37 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 
 </full-page-center>
+
+<full-page-center>
+# SKILLS
+
+## Backend
+
+- Javascript
+  - Node.JS
+  - Express
+- PHP
+  - Laravel
+  - Wordpress
+
+## Database
+
+- MySQL
+- MongoDB
+
+## Frontend
+
+- Javascript
+  - Vue.JS
+- CSS
+  - SCSS
+  - Bootstrap (+ Vue-Bootstrap)
+  - Materialize (+ Vuetify)
+
+## Other technologies
+
+- Git
+- Linux (+ WSL)
+- Docker
+
+</full-page-center>
