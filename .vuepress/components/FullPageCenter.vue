@@ -14,4 +14,8 @@ export default {};
 #fpc-container {
   min-height: 100vh;
 }
+
+h1 {
+  margin-bottom: 2rem;
+}
 </style>
