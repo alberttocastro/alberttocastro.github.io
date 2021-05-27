@@ -8,4 +8,10 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+
+p {
+  margin-bottom: 2rem;
+}
+
+</style>
