@@ -1,10 +1,4 @@
-$primary: #819E44;
-$secondary: #605239;
-$danger: #581D29;
-// $light: #DAD6E8;
-$dark: #17181A;
-
-
+@import "./variables";
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
@@ -37,6 +31,10 @@ h2 > .header-anchor, h3 > .header-anchor, h4 > .header-anchor, h5 > .header-anch
 
 .container-fluid {
   background: $light;
+}
+
+a.header-anchor {
+  color: #581d2982;
 }
 
 ul > li {
