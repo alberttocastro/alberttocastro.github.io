@@ -106,6 +106,8 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 </full-page-center>
 
+---
+
 <full-page-center>
 # SKILLS
 
