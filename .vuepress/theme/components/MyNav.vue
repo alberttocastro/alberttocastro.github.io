@@ -19,11 +19,12 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
+$navwidth: 250px;
 #nav,
 #nav > ul {
-  min-width: 225px;
-  max-width: 225px;
+  min-width: $navwidth;
+  max-width: $navwidth;
 }
 
 #nav > ul {
