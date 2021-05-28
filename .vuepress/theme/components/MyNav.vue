@@ -20,14 +20,25 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables.scss";
+
 $navwidth: 250px;
-#nav,
-#nav > ul {
-  min-width: $navwidth;
-  max-width: $navwidth;
+@media (min-width: map-get($grid-breakpoints, md)) {
+  #nav,
+  #nav > ul {
+    min-width: $navwidth;
+    max-width: $navwidth;
+  }
+
+  #nav > ul {
+    position: fixed;
+  }
 }
 
-#nav > ul {
-  position: fixed;
+@media (max-width: map-get($grid-breakpoints, md) - 1px ) {
+  #nav, #nav > * {
+    display: none !important;
+  }
 }
+
 </style>

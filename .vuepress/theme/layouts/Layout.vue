@@ -1,6 +1,8 @@
 <template>
-  <div class="d-flex">
-    <my-nav />
+  <div class="d-md-flex">
+    <my-nav/>
+    <!-- As a link -->
+    <mobile-nav />
     <b-container fluid>
       <Content />
     </b-container>
@@ -9,11 +11,12 @@
 
 <script>
 import MyNav from "../components/MyNav.vue";
+import MobileNav from "../components/MobileNav.vue";
 export default {
-  components: { MyNav }
+  components: { MyNav, MobileNav },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>

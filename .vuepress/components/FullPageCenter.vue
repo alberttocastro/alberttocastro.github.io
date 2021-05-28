@@ -1,5 +1,5 @@
 <template>
-  <div id="fpc-container" class="d-flex align-items-center">
+  <div class="d-flex align-items-center fpc-container">
     <b-container>
       <slot />
     </b-container>
@@ -10,12 +10,24 @@
 export default {};
 </script>
 
-<style class="scss">
-#fpc-container {
+<style lang="scss">
+@import "../theme/styles/variables.scss";
+
+.fpc-container {
   min-height: 100vh;
 }
 
 h1 {
   margin-bottom: 2rem;
+}
+
+h2 > a {
+  word-break: break-all;
+}
+
+@media (max-width: map-get($grid-breakpoints, md) - 1px ) {
+  .fpc-container:first-of-type {
+    padding-top: 10rem;
+  }
 }
 </style>
