@@ -1,6 +1,6 @@
 module.exports = {
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   title: "@alberttocastro - Web Developer",
   themeConfig: {
