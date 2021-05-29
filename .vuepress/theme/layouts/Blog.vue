@@ -6,15 +6,8 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item
-          v-for="link in this.$themeConfig.locales[this.$localePath].nav"
-          v-bind:key="link.link"
-          :href="link.link"
-          >{{ link.text }}</b-nav-item
-        >
-      </b-navbar-nav>
-    </b-collapse>
+        <nav-options class="ml-auto" />
+      </b-collapse>
     </b-navbar>
     <b-container>
       <Content />
@@ -23,10 +16,9 @@
 </template>
 
 <script>
-import MyNav from "../components/MyNav.vue";
-import MobileNav from "../components/MobileNav.vue";
+import NavOptions from "../components/NavOptions";
 export default {
-  components: { MyNav, MobileNav },
+  components: { NavOptions },
 };
 </script>
 

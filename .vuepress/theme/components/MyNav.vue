@@ -5,18 +5,16 @@
       class="flex-grow-0 flex-shrink-0 vh-100 align-items-center justify-content-center"
     >
       <img src="../assets/profile.png" class="mb-5" style="max-width: 150px;" />
-      <b-nav-item
-        v-for="link in this.$themeConfig.locales[this.$localePath].nav"
-        v-bind:key="link.link"
-          :href="link.link"
-          >{{ link.text }}</b-nav-item
-        >
+      <nav-options class="align-items-center" />
     </b-nav>
   </div>
 </template>
 
 <script>
-export default {};
+import NavOptions from "./NavOptions";
+export default {
+  components: { NavOptions }
+};
 </script>
 
 <style lang="scss" scoped>

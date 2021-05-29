@@ -5,20 +5,16 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item
-          v-for="link in this.$themeConfig.locales[this.$localePath].nav"
-          v-bind:key="link.link"
-          :href="link.link"
-          >{{ link.text }}</b-nav-item
-        >
-      </b-navbar-nav>
+      <nav-options />
     </b-collapse>
   </b-navbar>
 </template>
 
 <script>
-export default {};
+import NavOptions from "./NavOptions";
+export default {
+  components: { NavOptions }
+};
 </script>
 
 <style></style>
