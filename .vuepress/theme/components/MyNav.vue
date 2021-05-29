@@ -6,11 +6,11 @@
     >
       <img src="../assets/profile.png" class="mb-5" style="max-width: 150px;" />
       <b-nav-item
-        v-for="link in this.$site.themeConfig.sidebar"
-        v-bind:key="link[0]"
-        :href="link[0]"
-        >{{ link[1] }}</b-nav-item
-      >
+        v-for="link in this.$themeConfig.locales[this.$localePath].nav"
+        v-bind:key="link.link"
+          :href="link.link"
+          >{{ link.text }}</b-nav-item
+        >
     </b-nav>
   </div>
 </template>
@@ -35,10 +35,10 @@ $navwidth: 250px;
   }
 }
 
-@media (max-width: map-get($grid-breakpoints, md) - 1px ) {
-  #nav, #nav > * {
+@media (max-width: map-get($grid-breakpoints, md) - 1px) {
+  #nav,
+  #nav > * {
     display: none !important;
   }
 }
-
 </style>

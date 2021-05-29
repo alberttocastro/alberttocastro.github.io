@@ -79,8 +79,6 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 </work-experience>
 
-
-
 </full-page-center>
 
 ---
@@ -102,7 +100,6 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 ### Technician - Industrial Automation
 
 </education-entry>
-
 
 </full-page-center>
 
