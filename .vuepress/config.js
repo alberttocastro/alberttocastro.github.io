@@ -1,5 +1,8 @@
 module.exports = {
-  title: "Work in progress",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
+  title: "@alberttocastro - Web Developer",
   themeConfig: {
     sidebar: [
       ['/', 'About me (CV)']

@@ -1,6 +1,6 @@
 <full-page-center>
 
-# Alberto Castro
+<typing-name />
 
 ## Bahia - BR | [albertto.programmer@gmail.com](mailto:albertto.programmer@gmail.com)
 
