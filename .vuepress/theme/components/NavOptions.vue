@@ -6,11 +6,15 @@
       :href="link.link"
       >{{ link.text }}</b-nav-item
     >
+    <switch-locale />
   </b-navbar-nav>
 </template>
 
 <script>
-export default {};
+import SwitchLocale from "../components/SwitchLocale";
+export default {
+  components: { SwitchLocale },
+};
 </script>
 
 <style></style>

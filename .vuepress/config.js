@@ -33,12 +33,24 @@ module.exports = {
   themeConfig: {
     locales: {
       "/pt/": {
+        // text for the language dropdown
+        selectText: 'Idiomas',
+        // label for this locale in the language dropdown
+        label: 'Português',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Idiomas',
         nav: [
           { link: "/pt/", text: "Sobre mim (CV)" },
           { link: "/pt/blog/", text: "Blog" },
         ],
       },
       "/": {
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'English',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
         nav: [
           { link: "/", text: "About me (CV)" },
           { link: "/blog/", text: "Blog" },
