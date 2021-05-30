@@ -37,18 +37,18 @@ export default {
   methods: {
     changeLocale(locale) {
       let localePath = this.$localePath;
-      let pageUri = this.$page.regularPath;
+      let pageUri = this.$page.path;
 
       let destination = locale + this.removeLocaleFromUrl(pageUri, localePath);
 
       window.location = destination;
     },
     doesPageExist(locale) {
-      let pageUri = this.$page.regularPath;
+      let pageUri = this.$page.path;
       let rawUrl = this.removeLocaleFromUrl(pageUri, this.$localePath);
 
       let exists = this.$site.pages.reduce(
-        (match, current) => match || current.regularPath == locale + rawUrl,
+        (match, current) => match || current.path == locale + rawUrl,
         false
       );
 
