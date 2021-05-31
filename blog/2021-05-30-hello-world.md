@@ -1,9 +1,11 @@
 ---
 date: 2021-05-30
 excerpt: Placeholder
+title: Hello World
+tag:
+  - Placeholder
+  - Blog
 ---
-
-# Hello world
 
 Hey there! Thank you for visiting my blog. This is just a placeholder post. It will be updated, and more stuff is comming.
 
