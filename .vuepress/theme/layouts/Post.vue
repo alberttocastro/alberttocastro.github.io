@@ -18,10 +18,6 @@
 <script>
 import NavOptions from "../components/NavOptions";
 export default {
-  components: { NavOptions },
+  components: { NavOptions }
 };
 </script>
-
-<style lang="scss" scoped>
-
-</style>

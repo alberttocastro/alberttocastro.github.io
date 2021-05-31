@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import SwitchLocale from "../components/SwitchLocale";
+import SwitchLocale from "./SwitchLocale";
 export default {
   components: { SwitchLocale },
 };
