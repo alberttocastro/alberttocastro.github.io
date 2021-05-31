@@ -16,9 +16,16 @@
           v-bind:key="page.key"
           :href="page.path"
         >
-          <h1>
-            {{ page.title }}
-          </h1>
+          <div class="d-flex w-100 justify-content-between">
+            <h1>
+              {{ page.title }}
+            </h1>
+            <small>{{ formatDate(page.frontmatter.date) }}</small>
+          </div>
+
+          <p v-if="page.frontmatter.excerpt">
+            {{ page.frontmatter.excerpt }}
+          </p>
         </b-list-group-item>
       </b-list-group>
     </div>
@@ -36,6 +43,22 @@
 <script>
 import NavOptions from "../components/NavOptions";
 export default {
-  components: { NavOptions }
+  components: { NavOptions },
+  methods: {
+    formatDate(date){
+      let dateObject = new Date(date);
+      let locale = this.$site.locales[this.$localePath].lang;
+
+      return dateObject.toLocaleDateString(locale);
+    }
+  }
 };
 </script>
+
+<style lang="scss" scoped>
+.list-group-item {
+  h1 {
+    font-size: 2rem;
+  }
+}
+</style>
