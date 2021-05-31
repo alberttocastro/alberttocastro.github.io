@@ -35,14 +35,16 @@
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/print";
 
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "node_modules/bootstrap-vue/src/index.scss";
 
-h1, h1 * {
+h1,
+h1 * {
   color: var(--danger);
   text-transform: uppercase;
 }
 
-h2, h2 * {
+h2,
+h2 * {
   color: var(--secondary);
 }
 
@@ -50,7 +52,10 @@ h3 {
   color: var(--dark);
 }
 
-h2 > .header-anchor, h3 > .header-anchor, h4 > .header-anchor, h5 > .header-anchor {
+h2 > .header-anchor,
+h3 > .header-anchor,
+h4 > .header-anchor,
+h5 > .header-anchor {
   display: none;
 }
 
@@ -73,7 +78,7 @@ a.header-anchor {
 }
 
 ul > li {
-  list-style : none;
+  list-style: none;
 }
 
 li {
@@ -95,5 +100,14 @@ li > ul {
 }
 
 .nav-item a:hover {
-  color: var(--danger)
+  color: var(--danger);
+}
+
+.social-share-btn:not(.social-share-trigger) {
+  color: var(--secondary) !important;
+}
+
+.vssue :not(.vssue-comment-content) a, .vssue .vssue-button:not(:disabled).vssue-button-primary {
+  color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
 }

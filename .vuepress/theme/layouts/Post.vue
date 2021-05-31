@@ -37,6 +37,7 @@
             <div>
               <social-share is-plain />
             </div>
+            <hr />
             <Vssue :title="$page.title" />
           </b-container>
         </b-col>
