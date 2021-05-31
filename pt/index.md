@@ -26,7 +26,7 @@ Conhecimentos: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Wor
 
 ### Novembro 2020 - Atualmente
 
-Eu desenvolvo uma solução uinterna para gerenciar times de sustentação, em PHP. Eu também desenvolvi um protótipo para atendimento ao cliente em campo.
+Eu desenvolvo uma solução interna para gerenciar times de sustentação, em PHP. Eu também desenvolvi um protótipo para atendimento ao cliente em campo.
 
 </work-experience>
 

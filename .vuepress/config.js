@@ -11,7 +11,7 @@ module.exports = {
       owner: 'alberttocastro',
       repo: 'alberttocastro.github.io',
       clientId: '23fcfe530f5643cb9e01',
-      clientSecret: '292c8dd1beac281f8c14bc5fe199f0c84f79cffd ',
+      clientSecret: '1a9ad71a088cee0f07f36ee2137e63e68054f050',
     }],
     [
       "@vuepress/blog",
