@@ -27,7 +27,7 @@
             </div>
             <Content class="mb-5" />
             <div>
-              <!-- <social-share is-plain /> -->
+              <social-share is-plain />
             </div>
             <Vssue :title="$page.title" />
           </b-container>
