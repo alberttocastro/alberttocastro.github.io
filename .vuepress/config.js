@@ -37,7 +37,7 @@ module.exports = {
         frontmatters: [
           {
             id: 'tag',
-            keys: ['tags'],
+            keys: ['tag'],
             path: '/tags/',
             scopeLayout: 'PostIndex'
           }

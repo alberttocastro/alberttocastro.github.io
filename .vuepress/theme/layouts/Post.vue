@@ -9,16 +9,38 @@
         <nav-options class="ml-auto" />
       </b-collapse>
     </b-navbar>
-    <b-container>
-      <Content />
-      <Vssue :title="$title" />
+    <b-container fluid>
+      <b-row>
+        <b-col lg="9">
+          <b-container>
+            <div class="post-header my-5">
+              <h1 v-if="$page.title">{{ $page.title }}</h1>
+              <b-badge
+                pill
+                variant="danger"
+                v-for="tag in $page.frontmatter.tag"
+                v-bind:key="tag"
+                class="mr-2 px-2 py-1"
+              >
+                #{{ tag }}
+              </b-badge>
+            </div>
+            <Content class="mb-5" />
+            <Vssue :title="$page.title" />
+          </b-container>
+        </b-col>
+        <b-col lg="3">
+          <about-writter :locale="this.$localePath" class="mt-5" />
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
 import NavOptions from "../components/NavOptions";
+import AboutWritter from "../components/AboutWritter";
 export default {
-  components: { NavOptions }
+  components: { NavOptions, AboutWritter },
 };
 </script>

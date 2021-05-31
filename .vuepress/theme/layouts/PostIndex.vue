@@ -26,6 +26,18 @@
           <p v-if="page.frontmatter.excerpt">
             {{ page.frontmatter.excerpt }}
           </p>
+
+          <div>
+            <b-badge
+              pill
+              variant="danger"
+              v-for="tag in page.frontmatter.tag"
+              v-bind:key="tag"
+              class="mr-2 px-2 py-1"
+            >
+              #{{ tag }}
+            </b-badge>
+          </div>
         </b-list-group-item>
       </b-list-group>
     </div>
@@ -45,13 +57,13 @@ import NavOptions from "../components/NavOptions";
 export default {
   components: { NavOptions },
   methods: {
-    formatDate(date){
+    formatDate(date) {
       let dateObject = new Date(date);
       let locale = this.$site.locales[this.$localePath].lang;
 
       return dateObject.toLocaleDateString(locale);
-    }
-  }
+    },
+  },
 };
 </script>
 
