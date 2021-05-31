@@ -24,6 +24,14 @@ module.exports = {
             layout: "PostIndex"
           },
         ],
+        frontmatters: [
+          {
+            id: 'tag',
+            keys: ['tags'],
+            path: '/tags/',
+            scopeLayout: 'PostIndex'
+          }
+        ]
       },
     ],
   ],
