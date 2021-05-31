@@ -3,6 +3,13 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
+    ['social-share', {
+      networks: ['twitter', 'facebook', 'telegram', 'whatsapp'],
+      twitterUser: 'alberttocastro',
+      autoQuote: true,
+      isPlain: true,
+      noGlobalSocialShare: true
+    }],
     ['@vuepress/google-analytics', {'ga': 'G-54JWFMN1CR'}],
     ['@vssue/vuepress-plugin-vssue', {
       // set `platform` rather than `api`

@@ -26,6 +26,9 @@
               </b-badge>
             </div>
             <Content class="mb-5" />
+            <div>
+              <!-- <social-share is-plain /> -->
+            </div>
             <Vssue :title="$page.title" />
           </b-container>
         </b-col>
