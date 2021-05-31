@@ -14,7 +14,15 @@
         <b-col lg="9">
           <b-container>
             <div class="post-header my-5">
-              <h1 v-if="$page.title">{{ $page.title }}</h1>
+              <div class="d-flex justify-content-between mt-3 ml-1">
+                <span id="post-date">
+                  {{ formatDate($page.frontmatter.date) }}
+                </span>
+                <span id="post-last-edited" class="ml-auto">
+                  {{ $page.lastUpdated }}
+                </span>
+              </div>
+              <h1 class="mt-2" v-if="$page.title">{{ $page.title }}</h1>
               <b-badge
                 pill
                 variant="danger"
@@ -45,5 +53,23 @@ import NavOptions from "../components/NavOptions";
 import AboutWritter from "../components/AboutWritter";
 export default {
   components: { NavOptions, AboutWritter },
+  methods: {
+    formatDate(date) {
+      let dateObject = new Date(date);
+      let locale = this.$site.locales[this.$localePath].lang;
+
+      return dateObject.toLocaleDateString(locale);
+    },
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+#post-date {
+  font-size: 0.8rem;
+}
+
+#post-last-edited {
+  font-size: 0.8rem;
+}
+</style>

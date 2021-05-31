@@ -20,7 +20,7 @@
             <h1>
               {{ page.title }}
             </h1>
-            <small>{{ formatDate(page.frontmatter.date) }}</small>
+            <small>{{ page.lastUpdated }}</small>
           </div>
 
           <p v-if="page.frontmatter.excerpt">
