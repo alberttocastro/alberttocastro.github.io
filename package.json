@@ -26,6 +26,7 @@
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-last-updated": "^1.8.2",
+    "@vuepress/plugin-search": "^1.8.2",
     "node-sass": "^6.0.0",
     "nodemon": "^2.0.7",
     "sass-loader": "^10",

@@ -7,13 +7,15 @@
       >{{ link.text }}</b-nav-item
     >
     <switch-locale />
+    <!-- <search-box /> -->
   </b-navbar-nav>
 </template>
 
 <script>
 import SwitchLocale from "./SwitchLocale";
+import SearchBox from '@SearchBox';
 export default {
-  components: { SwitchLocale },
+  components: { SwitchLocale, SearchBox },
 };
 </script>
 

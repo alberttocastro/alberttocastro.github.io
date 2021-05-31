@@ -3,6 +3,9 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }],
     ['@vuepress/last-updated',{
       transformer: (timestamp, lang) => {
         // Don't forget to install moment yourself
