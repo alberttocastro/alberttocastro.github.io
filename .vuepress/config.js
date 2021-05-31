@@ -3,17 +3,30 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
-    ['@vuepress/search', {
-      searchMaxSuggestions: 10
-    }],
-    ['@vuepress/last-updated',{
-      transformer: (timestamp, lang) => {
-        // Don't forget to install moment yourself
-        const moment = require('moment')
-        moment.locale(lang)
-        return moment(timestamp).fromNow()
-      }
-    }],
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
+    [
+      "@vuepress/search",
+      {
+        searchMaxSuggestions: 10,
+      },
+    ],
+    [
+      "@vuepress/last-updated",
+      {
+        transformer: (timestamp, lang) => {
+          // Don't forget to install moment yourself
+          const moment = require("moment");
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        },
+      },
+    ],
     [
       "social-share",
       {
