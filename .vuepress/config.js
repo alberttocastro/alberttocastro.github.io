@@ -3,7 +3,13 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
-    ['@vuepress/nprogress'],
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: "img.zoom-custom-imgs",
+      },
+    ],
+    ["@vuepress/nprogress"],
     [
       "@vuepress/pwa",
       {
