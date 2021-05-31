@@ -3,6 +3,7 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
+    ['@vuepress/nprogress'],
     [
       "@vuepress/pwa",
       {
