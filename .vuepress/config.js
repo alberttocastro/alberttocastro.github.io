@@ -3,6 +3,16 @@ module.exports = {
   //   ['link', { rel: 'icon', href: '/favicon.ico' }]
   // ],
   plugins: [
+    ['@vssue/vuepress-plugin-vssue', {
+      // set `platform` rather than `api`
+      platform: 'github',
+
+      // all other options of Vssue are allowed
+      owner: 'alberttocastro',
+      repo: 'alberttocastro.github.io',
+      clientId: '23fcfe530f5643cb9e01',
+      clientSecret: '292c8dd1beac281f8c14bc5fe199f0c84f79cffd ',
+    }],
     [
       "@vuepress/blog",
       {

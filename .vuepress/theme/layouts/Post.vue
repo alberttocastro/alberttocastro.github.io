@@ -11,6 +11,7 @@
     </b-navbar>
     <b-container>
       <Content />
+      <Vssue :title="$title" />
     </b-container>
   </div>
 </template>
