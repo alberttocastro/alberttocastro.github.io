@@ -1,7 +1,3 @@
----
-sidebarDepth: 3
-sidebar: auto
----
 
 <full-page-center>
 
