@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable variant="faded" class="d-md-none bg-primary" fixed="top">
+  <b-navbar toggleable type="light" class="d-md-none bg-primary" fixed="top">
     <b-navbar-brand :href="this.$localePath">@alberttocastro</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

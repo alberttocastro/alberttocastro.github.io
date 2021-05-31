@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="dark" variant="primary">
-      <b-navbar-brand :href="this.$localePath">@alberttocastro</b-navbar-brand>
+    <b-navbar toggleable="md" type="light" variant="primary">
+      <b-navbar-brand class="info" :href="this.$localePath">@alberttocastro</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
