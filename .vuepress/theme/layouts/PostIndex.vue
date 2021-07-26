@@ -9,6 +9,7 @@
         <nav-options class="ml-auto" />
       </b-collapse>
     </b-navbar>
+
     <div class="container mt-5">
       <b-list-group>
         <b-list-group-item
@@ -16,8 +17,20 @@
           v-bind:key="page.key"
           :href="page.path"
         >
-          <div class="d-flex w-100 justify-content-between">
-            <h1>
+          <!-- <div>
+            <b-badge
+              pill
+              variant="danger"
+              v-for="(tag, id) in page.frontmatter.tag"
+              v-bind:key="id"
+              class="mr-2 px-2 py-1"
+              :href="'/tags/' + tag"
+            >
+              {{ tag }}
+            </b-badge>
+          </div> -->
+          <div class="d-flex w-100 justify-content-between mt-2">
+            <h1 class="mb-1">
               {{ page.title }}
             </h1>
             <small>{{ page.lastUpdated }}</small>
@@ -26,21 +39,10 @@
           <p v-if="page.frontmatter.excerpt">
             {{ page.frontmatter.excerpt }}
           </p>
-
-          <div>
-            <b-badge
-              pill
-              variant="danger"
-              v-for="tag in page.frontmatter.tag"
-              v-bind:key="tag"
-              class="mr-2 px-2 py-1"
-            >
-              #{{ tag }}
-            </b-badge>
-          </div>
         </b-list-group-item>
       </b-list-group>
     </div>
+
     <div id="pagination">
       <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink"
         >Prev</router-link

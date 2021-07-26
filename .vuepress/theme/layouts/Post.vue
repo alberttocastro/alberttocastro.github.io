@@ -1,7 +1,9 @@
 <template>
   <div>
     <b-navbar toggleable="md" type="light" variant="primary">
-      <b-navbar-brand class="info" :href="this.$localePath">@alberttocastro</b-navbar-brand>
+      <b-navbar-brand class="info" :href="this.$localePath"
+        >@alberttocastro</b-navbar-brand
+      >
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -19,7 +21,7 @@
                   {{ formatDate($page.frontmatter.date) }}
                 </span>
                 <span id="post-last-edited" class="ml-auto">
-                  {{ $page.lastUpdated }}
+                  {{ lastUpdated }}
                 </span>
               </div>
               <h1 class="mt-2" v-if="$page.title">{{ $page.title }}</h1>
@@ -29,6 +31,7 @@
                 v-for="tag in $page.frontmatter.tag"
                 v-bind:key="tag"
                 class="mr-2 px-2 py-1"
+                :href="'/tags/' + tag"
               >
                 #{{ tag }}
               </b-badge>
@@ -52,8 +55,15 @@
 <script>
 import NavOptions from "../components/NavOptions";
 import AboutWritter from "../components/AboutWritter";
+import Moment from "moment";
 export default {
   components: { NavOptions, AboutWritter },
+  computed: {
+    lastUpdated(){
+      Moment.locale(this.$lang);
+      return Moment(this.$page.frontmatter.date).fromNow();
+    }
+  },
   methods: {
     formatDate(date) {
       let dateObject = new Date(date);
@@ -72,5 +82,9 @@ export default {
 
 #post-last-edited {
   font-size: 0.8rem;
+}
+
+.content__default::v-deep img {
+  max-width: 90%;
 }
 </style>

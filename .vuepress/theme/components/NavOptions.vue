@@ -13,9 +13,8 @@
 
 <script>
 import SwitchLocale from "./SwitchLocale";
-import SearchBox from '@SearchBox';
 export default {
-  components: { SwitchLocale, SearchBox },
+  components: { SwitchLocale },
 };
 </script>
 
