@@ -1,26 +1,60 @@
 module.exports = {
   // head: [
-  //   ['link', { rel: 'icon', href: '/favicon.ico' }]
+  //   
   // ],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-54JWFMN1CR",
+      },
+    ],
+    [
+      "script",
+      {},
+      [
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-54JWFMN1CR');",
+      ],
+    ],
+  ],
   plugins: [
+    [
+      "@vuepress/blog",
+      {
+        directories: [
+          {
+            id: "post",
+            dirname: "blog",
+            path: "/blog/",
+            itemPermalink: "/blog/:year/:slug",
+            itemLayout: "Post",
+            layout: "PostIndex",
+          },
+          {
+            id: "publicacoes",
+            dirname: "pt/blog",
+            path: "/pt/blog/",
+            itemPermalink: "/blog/:year/:slug",
+            itemLayout: "Post",
+            layout: "PostIndex",
+          },
+        ],
+        frontmatters: [
+          {
+            id: "tag",
+            keys: ["tag"],
+            path: "/tags/",
+            scopeLayout: "PostIndex",
+          },
+        ],
+      },
+    ],
     [
       "@vuepress/medium-zoom",
       {
         selector: "img.zoom-custom-imgs",
-      },
-    ],
-    ["@vuepress/nprogress"],
-    [
-      "@vuepress/pwa",
-      {
-        serviceWorker: true,
-        updatePopup: true,
-      },
-    ],
-    [
-      "@vuepress/search",
-      {
-        searchMaxSuggestions: 10,
       },
     ],
     [
@@ -54,7 +88,6 @@ module.exports = {
         },
       },
     ],
-    ["@vuepress/google-analytics", { ga: "G-54JWFMN1CR" }],
     [
       "@vssue/vuepress-plugin-vssue",
       {
@@ -66,37 +99,6 @@ module.exports = {
         repo: "alberttocastro.github.io",
         clientId: "23fcfe530f5643cb9e01",
         clientSecret: "1a9ad71a088cee0f07f36ee2137e63e68054f050",
-      },
-    ],
-    [
-      "@vuepress/blog",
-      {
-        directories: [
-          {
-            id: "post",
-            dirname: "blog",
-            path: "/blog/",
-            itemPermalink: "/blog/:year/:slug",
-            itemLayout: "Post",
-            layout: "PostIndex",
-          },
-          {
-            id: "publicacoes",
-            dirname: "pt/blog",
-            path: "/pt/blog/",
-            itemPermalink: "/blog/:year/:slug",
-            itemLayout: "Post",
-            layout: "PostIndex",
-          },
-        ],
-        frontmatters: [
-          {
-            id: "tag",
-            keys: ["tag"],
-            path: "/tags/",
-            scopeLayout: "PostIndex",
-          },
-        ],
       },
     ],
   ],
