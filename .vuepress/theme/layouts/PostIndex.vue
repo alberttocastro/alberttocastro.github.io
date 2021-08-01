@@ -33,7 +33,7 @@
             <h1 class="mb-1">
               {{ page.title }}
             </h1>
-            <small>{{ page.lastUpdated }}</small>
+            <small>{{ lastUpdated(page.frontmatter.date) }}</small>
           </div>
 
           <p v-if="page.frontmatter.excerpt">
@@ -56,6 +56,7 @@
 
 <script>
 import NavOptions from "../components/NavOptions";
+import Moment from "moment";
 export default {
   components: { NavOptions },
   methods: {
@@ -65,6 +66,10 @@ export default {
 
       return dateObject.toLocaleDateString(locale);
     },
+    lastUpdated(date){
+      Moment.locale(this.$lang);
+      return Moment(date).fromNow();
+    }
   },
 };
 </script>
