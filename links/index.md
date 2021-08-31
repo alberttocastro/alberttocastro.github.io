@@ -25,9 +25,9 @@ Blog
 
 </link-component>
 
-<link-component class="mt-3" link="/pt/blog/2021/hello-world/" icon="file-arrow-up-fill">
+<link-component class="mt-3" link="/pt/blog/2021/como-fiz-meu-site-pessoal-grauitamente/" icon="file-arrow-up-fill">
 
-Artigo: Hello World
+Artigo: Como fiz meu site pessoal gratuitamente
 
 </link-component>
 
