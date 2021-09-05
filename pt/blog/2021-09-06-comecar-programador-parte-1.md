@@ -1,6 +1,7 @@
 ---
 date: 2021-09-06
 excerpt: Está pensando em começar na area de programação? Aqui eu conto quais coisas eu considero importante que você saiba nesse momento da sua carreira.
+title: Como começar no mundo da programação - Parte 1
 tag:
   - Iniciante
   - Carreira
