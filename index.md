@@ -154,3 +154,5 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 </skills>
 
 </full-page-center>
+
+
