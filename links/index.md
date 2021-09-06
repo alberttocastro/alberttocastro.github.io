@@ -25,9 +25,9 @@ Blog
 
 </link-component>
 
-<link-component class="mt-3" link="/pt/blog/2021/como-fiz-meu-site-pessoal-grauitamente/" icon="file-arrow-up-fill">
+<link-component class="mt-3" link="/pt/blog/2021/comecar-programador-parte-1/" icon="file-arrow-up-fill">
 
-Artigo: Como fiz meu site pessoal gratuitamente
+Artigo: Como começar no mundo da programação - Parte 1
 
 </link-component>
 
