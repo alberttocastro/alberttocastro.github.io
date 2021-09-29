@@ -3,7 +3,7 @@
     <b-nav
       vertical
       class="flex-grow-0 flex-shrink-0 vh-100 align-items-center justify-content-center"
-      type="light"
+      type="transparent"
     >
       <img src="../assets/profile.png" class="mb-5" style="max-width: 150px;" />
       <nav-options class="align-items-center" />

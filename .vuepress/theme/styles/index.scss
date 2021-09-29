@@ -38,6 +38,11 @@
 
 @import "node_modules/bootstrap-vue/src/index.scss";
 
+body,
+.container-fluid {
+  background: var(--primary);
+}
+
 h1,
 h1 * {
   color: var(--danger);
@@ -68,10 +73,6 @@ h5 > .header-anchor {
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-.container-fluid {
-  background: var(--light);
 }
 
 a.header-anchor {
@@ -108,7 +109,8 @@ li > ul {
   color: var(--secondary) !important;
 }
 
-.vssue :not(.vssue-comment-content) a, .vssue .vssue-button:not(:disabled).vssue-button-primary {
+.vssue :not(.vssue-comment-content) a,
+.vssue .vssue-button:not(:disabled).vssue-button-primary {
   color: var(--secondary) !important;
   border-color: var(--secondary) !important;
 }
