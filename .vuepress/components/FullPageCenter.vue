@@ -1,7 +1,7 @@
 <template>
   <div
     class="d-flex align-items-center fpc-container"
-    :style="background ? 'background: url(' + background + ')' : ''"
+    :style="background ? 'background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' + background + ')' : ''"
   >
     <b-container>
       <slot />

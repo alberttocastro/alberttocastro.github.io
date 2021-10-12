@@ -4,7 +4,19 @@ layout: LargeLayout
 
 <full-page-center background="https://bl6pap003files.storage.live.com/y4mPStY0m22jPlDTFf5zpmLLixTHt-xMD4h2L5ykt_51CKK5WHeqDGoqT_spsDoBSDvKx4xS2a_vzOURjmcssGPKYPnbhPIuQGd5u4gkIQN7RFEr_DpW2l6MFEGckx1dLyjZ540U4jU4niCfzkciO9mRAe5Db0nyy6QcvDlAdHPmHnGXCMiJCyKHDWbDoeW71I_?width=958&height=639&cropmode=none">
 
+<front-title>
+<div id="name">
+
 AlberttoCastro
+
+</div>
+
+<div id="subtitle">
+
+Desenvolvedor Web
+
+</div>
+</front-title>
 
 </full-page-center>
 
@@ -99,7 +111,7 @@ Projetos que estou trabalhando
 <article-card class="mb-2 pt-3" src="https://bl6pap003files.storage.live.com/y4m9rE5ly-7byhq1aYx7VvgOyQIzKenEo3LucY-kqX13-QNQ68T26yXEps_J9tqvko-ZXfIZ_mIG-94GfnEqyKCp5rnQ4tLE6USDDhf-WVPIdHfH2-cn32PLb2g09toFacNVV7bFb3lx4XrVjq1pjr1mUFGJ1GZeo1RH49-T_yAhy1MBboYKhU8hIKU9D7Ld9um?width=1920&height=2880&cropmode=none">
 
 
-<span> Em construção </span>
+<span> _Em construção..._ </span>
 
 
 </article-card>
