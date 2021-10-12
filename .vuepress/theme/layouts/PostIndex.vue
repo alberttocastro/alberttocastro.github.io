@@ -11,36 +11,38 @@
     </b-navbar>
 
     <div class="container mt-5">
-      <b-list-group>
-        <b-list-group-item
-          v-for="page in $pagination.pages"
-          v-bind:key="page.key"
-          :href="page.path"
-        >
-          <!-- <div>
+      <b-card
+        no-body
+        v-for="page in $pagination.pages"
+        v-bind:key="page.key"
+        :style="
+          'background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(' +
+            page.frontmatter.image +
+            ')'
+        "
+        class="my-4 rounded-lg article p-2"
+      >
+        <a :href="page.path">
+          <div class="last-updated">
+            {{ lastUpdated(page.frontmatter.date) }}
+          </div>
+          <div class="mt-5 title">
+            {{ page.title }}
+          </div>
+          <div>
             <b-badge
+              v-for="tag in page.frontmatter.tag"
+              v-bind:key="tag"
               pill
-              variant="danger"
-              v-for="(tag, id) in page.frontmatter.tag"
-              v-bind:key="id"
-              class="mr-2 px-2 py-1"
+              variant="white"
+              class="text-primary"
               :href="'/tags/' + tag"
             >
-              {{ tag }}
+              #{{ tag }}
             </b-badge>
-          </div> -->
-          <div class="d-flex w-100 justify-content-between mt-2">
-            <h1 class="mb-1">
-              {{ page.title }}
-            </h1>
-            <small>{{ lastUpdated(page.frontmatter.date) }}</small>
           </div>
-
-          <p v-if="page.frontmatter.excerpt">
-            {{ page.frontmatter.excerpt }}
-          </p>
-        </b-list-group-item>
-      </b-list-group>
+        </a>
+      </b-card>
     </div>
 
     <div id="pagination">
@@ -66,10 +68,10 @@ export default {
 
       return dateObject.toLocaleDateString(locale);
     },
-    lastUpdated(date){
+    lastUpdated(date) {
       Moment.locale(this.$lang);
       return Moment(date).fromNow();
-    }
+    },
   },
 };
 </script>
@@ -79,5 +81,31 @@ export default {
   h1 {
     font-size: 2rem;
   }
+}
+.article {
+  background-position: center;
+  background-size: 100%;
+}
+
+.last-updated {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.title {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.badge {
+  margin-right: 5px;
+}
+
+* {
+  color: white;
+}
+
+.card a:hover {
+  text-decoration: none;
 }
 </style>
