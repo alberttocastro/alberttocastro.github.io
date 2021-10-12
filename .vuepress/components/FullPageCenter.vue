@@ -1,5 +1,8 @@
 <template>
-  <div class="d-flex align-items-center fpc-container">
+  <div
+    class="d-flex align-items-center fpc-container"
+    :style="background ? 'background: url(' + background + ')' : ''"
+  >
     <b-container>
       <slot />
     </b-container>
@@ -7,7 +10,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    background: "",
+  },
+};
 </script>
 
 <style lang="scss">
@@ -15,6 +22,10 @@ export default {};
 
 .fpc-container {
   min-height: 100vh;
+
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 h1 {
@@ -25,7 +36,7 @@ h2 > a {
   word-break: break-all;
 }
 
-@media (max-width: map-get($grid-breakpoints, md) - 1px ) {
+@media (max-width: map-get($grid-breakpoints, md) - 1px) {
   .fpc-container:first-of-type {
     padding-top: 10rem;
   }
