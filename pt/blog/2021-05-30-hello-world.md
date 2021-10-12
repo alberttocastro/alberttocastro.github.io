@@ -2,6 +2,7 @@
 date: 2021-05-30
 excerpt: Nesta publicação, entenda porque esse blog foi criado. Saiba o que você pode esperar, e como você pode estar envolvido!
 title: Hello world
+image: https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none
 tag:
   - Blog
   - Portfolio

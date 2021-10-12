@@ -2,6 +2,7 @@
 date: 2021-07-32
 excerpt: Neste post, entenda como eu hospedo este site no Github sem pagar nada. Entenda também o que são sites estáticos, e algumas ferramentas para te ajudar a criar os seus.
 title: Como fiz meu site pessoal gratuitamente
+image: https://bl6pap003files.storage.live.com/y4mATADhSS9NJXZhKp2slkuGlFJp7u1cD3HEHFi7cOw9tvyH4KnlfsvPlQB3famBBeaK6GwJIcHbbUaLFJP8KIPrjUAu1WOHmX3PY4rPootpYcahMXSkeODxNaf6Tn5gbtWHZ9Z3CUQf0JUPczapBYsWyRoNHOFaGCGZ071h_wPjicVwbBVC9uImboJhk3d0IMj?width=1920&height=1200&cropmode=none
 tag:
   - Gerador de site estático
   - Hospedagem
