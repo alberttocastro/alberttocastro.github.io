@@ -36,6 +36,18 @@ h2 > a {
   word-break: break-all;
 }
 
+.subtitle {
+  h2 {
+    color: $white;
+    margin-bottom: 0.05rem;
+  }
+
+  p {
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+  }
+}
+
 @media (max-width: map-get($grid-breakpoints, md) - 1px) {
   .fpc-container:first-of-type {
     padding-top: 10rem;
