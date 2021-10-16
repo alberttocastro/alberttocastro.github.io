@@ -1,5 +1,5 @@
 <template>
-  <div class="d-md-flex">
+  <div>
     <my-nav/>
     <b-container fluid>
       <Content />
