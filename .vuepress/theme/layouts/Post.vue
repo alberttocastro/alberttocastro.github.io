@@ -1,16 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="md" type="light" variant="primary">
-      <b-navbar-brand class="info" :href="this.$localePath"
-        >@alberttocastro</b-navbar-brand
-      >
-
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-        <nav-options class="ml-auto" />
-      </b-collapse>
-    </b-navbar>
+    <my-nav />
     <b-container fluid>
       <b-row>
         <b-col lg="9">
@@ -56,8 +46,9 @@
 import NavOptions from "../components/NavOptions";
 import AboutWritter from "../components/AboutWritter";
 import Moment from "moment";
+import MyNav from "../components/MyNav.vue";
 export default {
-  components: { NavOptions, AboutWritter },
+  components: { NavOptions, AboutWritter, MyNav },
   computed: {
     lastUpdated(){
       Moment.locale(this.$lang);
