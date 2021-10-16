@@ -16,11 +16,11 @@
               </div>
               <h1 class="mt-2" v-if="$page.title">{{ $page.title }}</h1>
               <b-badge
-                pill
-                variant="danger"
                 v-for="tag in $page.frontmatter.tag"
                 v-bind:key="tag"
-                class="mr-2 px-2 py-1"
+                pill
+                variant="white"
+                class="text-primary mr-2 px-2 py-1"
                 :href="'/tags/' + tag"
               >
                 #{{ tag }}
@@ -50,10 +50,10 @@ import MyNav from "../components/MyNav.vue";
 export default {
   components: { NavOptions, AboutWritter, MyNav },
   computed: {
-    lastUpdated(){
+    lastUpdated() {
       Moment.locale(this.$lang);
       return Moment(this.$page.frontmatter.date).fromNow();
-    }
+    },
   },
   methods: {
     formatDate(date) {
