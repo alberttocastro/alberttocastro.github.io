@@ -43,28 +43,6 @@ body,
   background: var(--primary);
 }
 
-h1,
-h1 * {
-  color: var(--danger);
-  text-transform: uppercase;
-}
-
-h2,
-h2 * {
-  color: var(--secondary);
-}
-
-h3 {
-  color: var(--dark);
-}
-
-h2 > .header-anchor,
-h3 > .header-anchor,
-h4 > .header-anchor,
-h5 > .header-anchor {
-  display: none;
-}
-
 .nav {
   background: var(--primary);
 }
@@ -73,10 +51,6 @@ h5 > .header-anchor {
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-a.header-anchor {
-  color: #581d2982;
 }
 
 ul > li {
@@ -113,4 +87,45 @@ li > ul {
 .vssue .vssue-button:not(:disabled).vssue-button-primary {
   color: var(--secondary) !important;
   border-color: var(--secondary) !important;
+}
+
+// Texts
+
+.post-header {
+  h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: $white;
+  }
+
+  #post-date, #post-last-edited {
+    color: $text;
+  }
+}
+
+.content__default {
+  h1 {
+    color: $white;
+    letter-spacing: 0.08rem;
+    a {
+      color: $white;
+    }
+    a:hover {
+      color: $white;
+    }
+  }
+
+  p {
+    color: $text;
+    font-weight: 300;
+  }
+
+  strong {
+    color: $white;
+  }
+
+  ul {
+    color: $text;
+  }
 }

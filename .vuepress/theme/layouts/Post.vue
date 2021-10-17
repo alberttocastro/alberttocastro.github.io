@@ -3,7 +3,15 @@
     <my-nav />
     <b-container fluid>
       <b-row>
-        <b-col lg="9">
+        <!-- <b-col lg="9"> -->
+        <div
+          class="vw-100"
+          :style="
+            'background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' +
+              $page.frontmatter.image +
+              ')'
+          "
+        >
           <b-container>
             <div class="post-header my-5">
               <div class="d-flex justify-content-between mt-3 ml-1">
@@ -26,17 +34,20 @@
                 #{{ tag }}
               </b-badge>
             </div>
-            <Content class="mb-5" />
-            <div>
-              <social-share is-plain />
-            </div>
-            <hr />
-            <Vssue :title="$page.title" />
           </b-container>
-        </b-col>
-        <b-col lg="3">
+        </div>
+        <b-container class="shadow-lg pt-5">
+          <Content class="mb-5" />
+          <div>
+            <social-share is-plain />
+          </div>
+          <hr />
+          <Vssue :title="$page.title" />
+        </b-container>
+        <!-- </b-col> -->
+        <!-- <b-col lg="3" v-if="false">
           <about-writter :locale="this.$localePath" class="mt-5" />
-        </b-col>
+        </b-col> -->
       </b-row>
     </b-container>
   </div>
