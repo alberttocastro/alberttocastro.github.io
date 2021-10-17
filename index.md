@@ -46,7 +46,7 @@ About me
 
 </icon-card>
 
-<icon-card class="mb-2" :hasIcon="false">
+<icon-card url="/curriculum" class="mb-2" :hasIcon="false">
 
   _See my complete CV_
 
@@ -70,7 +70,11 @@ Tips, opinion and knowledge
 
 </div>
 
-<article-card class="mb-2" src="https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none">
+<article-card 
+  class="mb-2"
+  url="/blog/2021/hello-world/"
+  src="https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none"
+>
 
 ::: slot date
 21/09/2021
@@ -106,25 +110,25 @@ Contact
 
 </page-title>
 
-<contact class="my-5" icon="./linkedin_icon.svg">
+<contact url="https://www.linkedin.com/in/alberttocastro/" class="my-5" icon="../linkedin_icon.svg">
 
 /in/alberttocastro
 
 </contact>
 
-<contact class="my-5" icon="./github_icon.svg">
+<contact url="https://github.com/alberttocastro" class="my-5" icon="../github_icon.svg">
 
 /alberttocastro
 
 </contact>
 
-<contact class="my-5" icon="./instagram_icon.svg">
+<contact url="https://www.instagram.com/alberttocastro__" class="my-5" icon="../instagram_icon.svg">
 
 @alberttocastro__
 
 </contact>
 
-<contact class="my-5" icon="./email_icon.svg">
+<contact url="mailto:albertto.programmer@gmail.com" class="my-5" icon="../email_icon.svg" >
 
 albertto.programmer @gmail.com
 

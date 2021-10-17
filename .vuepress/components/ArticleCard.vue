@@ -8,14 +8,16 @@
         ')'
     "
   >
-    <div class="p-0">
-      <div class="text-center date">
-        <slot name="date" />
+    <a :href="url">
+      <div class="p-0">
+        <div class="text-center date">
+          <slot name="date" />
+        </div>
+        <div class="text-center title">
+          <slot />
+        </div>
       </div>
-      <div class="text-center">
-        <slot />
-      </div>
-    </div>
+    </a>
   </b-card>
 </template>
 
@@ -23,6 +25,7 @@
 export default {
   props: {
     src: String,
+    url: String,
   },
 };
 </script>
@@ -35,10 +38,21 @@ export default {
 </style>
 
 <style lang="scss" scoped>
-
 .date {
   font-size: 0.7rem;
   letter-spacing: 0.2rem;
 }
 
+a:hover {
+  &,
+  p {
+    text-decoration: none;
+  }
+
+  .title {
+    p {
+      font-weight: bolder;
+    }
+  }
+}
 </style>
