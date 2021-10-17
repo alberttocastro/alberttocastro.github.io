@@ -1,3 +1,5 @@
+<curriculum-layout>
+
 <full-page-center>
 
 <typing-name />
@@ -12,9 +14,9 @@ Knowledge in: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Word
 
 </full-page-center>
 
----
+<div class="container">
 
-<full-page-center>
+---
 
 # EXPERIENCE
 
@@ -79,11 +81,9 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 </work-experience>
 
-</full-page-center>
 
 ---
 
-<full-page-center>
 
 # EDUCATION
 
@@ -101,23 +101,26 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 </education-entry>
 
-</full-page-center>
 
 ---
 
-<full-page-center>
 # SKILLS
 
 ## Backend
 
 <skills>
 
-- Javascript
-  - Node.JS
-  - Express
-- PHP
-  - Laravel
-  - Wordpress
+<img src="./.vuepress/public/icons/php.svg" />
+<img src="./.vuepress/public/icons/javascript.svg" />
+
+</skills>
+
+<skills>
+
+<img src="./.vuepress/public/icons/laravel.svg" />
+<img src="./.vuepress/public/icons/wordpress.svg" />
+<img src="./.vuepress/public/icons/nodejs.svg" />
+<img src="./.vuepress/public/icons/Ex_press.svg" />
 
 </skills>
 
@@ -125,8 +128,8 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 <skills>
 
-- MySQL
-- MongoDB
+<img src="./.vuepress/public/icons/mysql.svg" />
+<img src="./.vuepress/public/icons/mongodb.svg" />
 
 </skills>
 
@@ -134,25 +137,24 @@ I developed and maintained innovative products for hospitals, using Arduino, pro
 
 <skills>
 
-- Javascript
-  - Vue.JS
-- CSS
-  - SCSS
-  - Bootstrap (+ Vue-Bootstrap)
-  - Materialize (+ Vuetify)
+<img src="./.vuepress/public/icons/css3.svg" />
+<img src="./.vuepress/public/icons/vuejs.svg" />
+<img src="./.vuepress/public/icons/bootstrap.svg" />
+<img src="./.vuepress/public/icons/materialize.svg" />
 
 </skills>
+
 
 ## Other technologies
 
 <skills>
 
-- Git
-- Linux (+ WSL)
-- Docker
+<img src="./.vuepress/public/icons/git.svg" />
+<img src="./.vuepress/public/icons/tux.svg" />
+<img src="./.vuepress/public/icons/docker.svg" />
 
 </skills>
 
-</full-page-center>
+</div>
 
-
+</curriculum-layout>

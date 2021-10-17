@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="d-flex my-3 pl-3">
     <slot />
   </div>
 </template>
@@ -11,12 +11,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// li > ul {
-//   display: unset;
-// }
-// ul {
-//   display: flex;
-//   justify-content: space-around;
-// }
+
+div {
+
+  overflow: scroll;
+
+  img {
+    margin: 0 1rem;
+  }
+  img:first-child {
+    margin-left: 0;
+  }
+}
 
 </style>
