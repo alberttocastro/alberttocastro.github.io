@@ -140,8 +140,9 @@ module.exports = {
         // Aria Label for locale in the dropdown
         ariaLabel: "Idiomas",
         nav: [
-          { link: "/pt/", text: "Sobre mim (CV)" },
-          { link: "/pt/blog/", text: "Blog" },
+          { link: "/pt/", text: "Início" },
+          { link: "/pt/curriculum", text: "Sobre mim (CV)" },
+          { link: "/pt/blog/", text: "Artigos" },
         ],
       },
       "/": {
@@ -152,8 +153,9 @@ module.exports = {
         // Aria Label for locale in the dropdown
         ariaLabel: "Languages",
         nav: [
-          { link: "/", text: "About me (CV)" },
-          { link: "/blog/", text: "Blog" },
+          { link: "/", text: "Home" },
+          { link: "/curriculum", text: "About me (CV)" },
+          { link: "/blog/", text: "Articles" },
         ],
       },
     },
