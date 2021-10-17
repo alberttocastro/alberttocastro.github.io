@@ -13,7 +13,7 @@ AlberttoCastro
 
 <div id="subtitle">
 
-Desenvolvedor Web
+Web Developer
 
 </div>
 </front-title>
@@ -24,7 +24,7 @@ Desenvolvedor Web
 
 <page-title class="mb-3">
 
-Sobre mim
+About me
 
 </page-title>
 
@@ -36,19 +36,19 @@ Sobre mim
 
 <icon-card class="mb-2" :hasIcon="true" icon="./dev_backend_icon.svg">
 
-  Dev Backend
+  Backend Dev
 
 </icon-card>
 
 <icon-card class="mb-2" :hasIcon="true" icon="./compartilhar_icon.svg">
 
-  Aprendendo e Compartilhando
+  Learning and Sharing
 
 </icon-card>
 
 <icon-card class="mb-2" :hasIcon="false">
 
-  _Veja meu currículo completo_
+  _See my complete CV_
 
 </icon-card>
 
@@ -58,37 +58,17 @@ Sobre mim
 
 <page-title class="mb-3">
 
-O site
+The website
 
 </page-title>
 
 <div class="subtitle">
 
-## Artigos
+## Articles
 
-Dicas, opinião e conhecimento
+Tips, opinion and knowledge
 
 </div>
-
-<article-card class="mb-2" src="https://bl6pap003files.storage.live.com/y4mMdT7vbIZZE7WtIFCkT3Ou4zXSa5A5zGoPpE4PGNapNkeYnxUl3S3zJk7ncE5PMYDcynUiMuEqLWCm-vDu2yDDzK_sj7vPCobYe_KVRxXFHv_tCRgeLDqJEhbgcpdy_RdPaERFaZ9nGcimTbT_EFowhika_xj5BLYpRSz1AEBPu_TtZkWlpCGU-MUayVj6HmU?width=1920&height=1080&cropmode=none">
-
-::: slot date
-21/09/2021
-:::
-
-Como começar no mundo da programação
-
-</article-card>
-
-<article-card class="mb-2" src="https://bl6pap003files.storage.live.com/y4mATADhSS9NJXZhKp2slkuGlFJp7u1cD3HEHFi7cOw9tvyH4KnlfsvPlQB3famBBeaK6GwJIcHbbUaLFJP8KIPrjUAu1WOHmX3PY4rPootpYcahMXSkeODxNaf6Tn5gbtWHZ9Z3CUQf0JUPczapBYsWyRoNHOFaGCGZ071h_wPjicVwbBVC9uImboJhk3d0IMj?width=1920&height=1200&cropmode=none">
-
-::: slot date
-21/09/2021
-:::
-
-Como hospedei meu site completamente de graça
-
-</article-card>
 
 <article-card class="mb-2" src="https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none">
 
@@ -104,14 +84,14 @@ Hello world
 
 ## Portfolio
 
-Projetos que estou trabalhando
+Projects I'm working on
 
 </div>
 
 <article-card class="mb-2 pt-3" src="https://bl6pap003files.storage.live.com/y4m9rE5ly-7byhq1aYx7VvgOyQIzKenEo3LucY-kqX13-QNQ68T26yXEps_J9tqvko-ZXfIZ_mIG-94GfnEqyKCp5rnQ4tLE6USDDhf-WVPIdHfH2-cn32PLb2g09toFacNVV7bFb3lx4XrVjq1pjr1mUFGJ1GZeo1RH49-T_yAhy1MBboYKhU8hIKU9D7Ld9um?width=1920&height=2880&cropmode=none">
 
 
-<span> _Em construção..._ </span>
+<span> _Coming soon..._ </span>
 
 
 </article-card>
@@ -122,7 +102,7 @@ Projetos que estou trabalhando
 
 <page-title class="my-5">
 
-Contato
+Contact
 
 </page-title>
 
