@@ -80,13 +80,21 @@ li > ul {
 }
 
 .social-share-btn:not(.social-share-trigger) {
-  color: var(--secondary) !important;
+  color: var(--white) !important;
 }
 
 .vssue :not(.vssue-comment-content) a,
 .vssue .vssue-button:not(:disabled).vssue-button-primary {
-  color: var(--secondary) !important;
-  border-color: var(--secondary) !important;
+  color: var(--white) !important;
+  border-color: var(--white) !important;
+}
+
+.vssue .vssue-new-comment .vssue-comment-avatar .vssue-icon {
+  fill: var(--white);
+}
+
+.vssue .vssue-header .vssue-header-powered-by {
+  color: $text;
 }
 
 // Texts

@@ -7,7 +7,7 @@ layout: LinksLayout
 <span class="font-weight-bolder text-white" style="font-size: 1.7rem">@alberttocastro</span>
 </div>
 
-<link-component link="/pt" icon="file-earmark-text-fill">
+<link-component link="/pt/curriculum" icon="file-earmark-text-fill">
 
 Meu CV
 

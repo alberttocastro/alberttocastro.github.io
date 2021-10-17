@@ -25,12 +25,7 @@ img {
 
 #link-bg {
   background: rgb(68, 158, 140);
-  background: linear-gradient(
-    138deg,
-    rgba(68, 158, 140, 1) 0%,
-    rgba(129, 158, 68, 1) 40%,
-    rgba(68, 158, 69, 1) 100%
-  );
+  background: linear-gradient(162.74deg, #2D142C 2.55%, #792476 163.15%);
   min-height: 100vh;
 }
 </style>
