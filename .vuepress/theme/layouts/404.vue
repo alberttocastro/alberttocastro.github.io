@@ -4,7 +4,7 @@
     class="d-flex flex-column justify-content-center align-items-center"
   >
     <img src="../assets/404.svg" alt="" />
-    <div class="subtitle mt-5">
+    <div class="subtitle mt-1">
       Oxe. E é aqui, é?
     </div>
     <div id="page-link" class="d-md-flex w-50 justify-content-around mt-5">
@@ -41,13 +41,13 @@ export default {};
     font-weight: 600;
     font-size: 2em;
 
-    color: var(--danger);
+    color: $text;
   }
 
   #page-link {
     font-weight: 800;
     a {
-      color: var(--primary);
+      color: var(--white);
     }
   }
 }
