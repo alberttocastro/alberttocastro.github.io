@@ -5,6 +5,7 @@
       <b-row>
         <!-- <b-col lg="9"> -->
         <div
+          id="post-header"
           class="vw-100"
           :style="
             'background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(' +
@@ -88,5 +89,9 @@ export default {
 
 .content__default::v-deep img {
   max-width: 90%;
+}
+
+#post-header {
+  background-position: center;
 }
 </style>
