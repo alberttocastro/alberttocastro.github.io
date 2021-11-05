@@ -40,6 +40,14 @@ module.exports = {
             itemLayout: "Post",
             layout: "PostIndex",
           },
+          {
+            id: "knowledgebase",
+            dirname: "kb",
+            path: "/kb/",
+            itemPermalink: "/kb/:slug",
+            itemLayout: "Post",
+            layout: "PostIndex"
+          }
         ],
         frontmatters: [
           {
