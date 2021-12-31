@@ -2,7 +2,7 @@
 date: 2021-12-31
 excerpt: Qual você diria que é a melhor linguagem de programação? E inglês? Precisa saber? Vem descobrir!
 title: Como começar no mundo da programação - Parte 2
-image: https://bl6pap003files.storage.live.com/y4mMdT7vbIZZE7WtIFCkT3Ou4zXSa5A5zGoPpE4PGNapNkeYnxUl3S3zJk7ncE5PMYDcynUiMuEqLWCm-vDu2yDDzK_sj7vPCobYe_KVRxXFHv_tCRgeLDqJEhbgcpdy_RdPaERFaZ9nGcimTbT_EFowhika_xj5BLYpRSz1AEBPu_TtZkWlpCGU-MUayVj6HmU?width=1920&height=1080&cropmode=none
+image: https://drive.google.com/uc?export=view&id=1KH45NzTzNO-9KRFX9baqqKI3nLH5zStl
 tag:
   - Iniciante
   - Carreira
