@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{589:function(n,t,e){"use strict";e.r(t);var i={},s=e(14),l=Object(s.a)(i,(function(){var n=this.$createElement,t=this._self._c||n;return t("div",[t("div",{attrs:{id:"sidebar"}},[this._v("\n    Hello world\n  ")]),this._v(" "),t("v-container",[t("Content")],1)],1)}),[],!1,null,null,null);t.default=l.exports}}]);
