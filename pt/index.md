@@ -75,6 +75,20 @@ Dicas, opinião e conhecimento
 
 <article-card 
   class="mb-2" 
+  url="/pt/blog/2021/comecar-programador-parte-2/"
+  src="https://drive.google.com/uc?export=view&id=1KH45NzTzNO-9KRFX9baqqKI3nLH5zStl"
+>
+
+::: slot date
+31/12/2021
+:::
+
+Como começar no mundo da programação - Parte 2
+
+</article-card>
+
+<article-card 
+  class="mb-2" 
   url="/pt/blog/2021/comecar-programador-parte-1/"
   src="https://bl6pap003files.storage.live.com/y4mMdT7vbIZZE7WtIFCkT3Ou4zXSa5A5zGoPpE4PGNapNkeYnxUl3S3zJk7ncE5PMYDcynUiMuEqLWCm-vDu2yDDzK_sj7vPCobYe_KVRxXFHv_tCRgeLDqJEhbgcpdy_RdPaERFaZ9nGcimTbT_EFowhika_xj5BLYpRSz1AEBPu_TtZkWlpCGU-MUayVj6HmU?width=1920&height=1080&cropmode=none"
 >
@@ -83,7 +97,7 @@ Dicas, opinião e conhecimento
 06/09/2021
 :::
 
-Como começar no mundo da programação
+Como começar no mundo da programação - Parte 1
 
 </article-card>
 
@@ -98,20 +112,6 @@ Como começar no mundo da programação
 :::
 
 Como fiz meu site pessoal gratuitamente
-
-</article-card>
-
-<article-card 
-  class="mb-2" 
-  url="/pt/blog/2021/hello-world/"
-  src="https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none"
->
-
-::: slot date
-30/05/2021
-:::
-
-Hello world
 
 </article-card>
 
