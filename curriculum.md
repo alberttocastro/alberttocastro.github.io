@@ -22,11 +22,21 @@ Knowledge in: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Word
 
 <work-experience>
 
+## Software Engineer / Interview Engineer - BairesDev (Full-time)
+
+### October 2021 - Current
+
+I interview software engineer and develop algorithms for question problems.
+
+</work-experience>
+
+<work-experience>
+
 ## System Development Analyst - Solutis (Full-time)
 
-### November 2020 - Current
+### November 2020 - October 2021
 
-I develop an internal solution for managing sustain teams in PHP. I also developed a prototype for field team client service.
+I develop an internal solution for managing sustain teams in PHP. I also developed a prototype for field team client service. I also helped in sustaining large-scale applications in a microservice architecture.
 
 </work-experience>
 

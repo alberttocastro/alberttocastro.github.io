@@ -23,9 +23,19 @@ Conhecimentos: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Wor
 
 <work-experience>
 
+## Engenheiro de Software / Engenheiro de Entrevistas - BairesDev (Tempo Integral)
+
+### Outubro 2021 - Atualmente
+
+Entrevisto engenheiros de software para vagas em outras empresas, e desenvolvo algoritmos para resolução de problemas.
+
+</work-experience>
+
+<work-experience>
+
 ## System Development Analyst - Solutis (Tempo Integral)
 
-### Novembro 2020 - Atualmente
+### Novembro 2020 - Outubro 2021
 
 Eu desenvolvo uma solução interna para gerenciar times de sustentação, em PHP. Eu também desenvolvi um protótipo para atendimento ao cliente em campo.
 
