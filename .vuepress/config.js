@@ -1,7 +1,5 @@
 module.exports = {
-  // head: [
-  //   
-  // ],
+  dest: 'docs',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
