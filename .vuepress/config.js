@@ -103,8 +103,8 @@ module.exports = {
         // all other options of Vssue are allowed
         owner: "alberttocastro",
         repo: "alberttocastro.github.io",
-        clientId: "23fcfe530f5643cb9e01",
-        clientSecret: "1a9ad71a088cee0f07f36ee2137e63e68054f050",
+        clientId: "Iv1.ebb7b003807582e6",
+        clientSecret: "90ef6635897b17f0b73cd99d5f0aaff319ce5bd0",
       },
     ],
   ],
