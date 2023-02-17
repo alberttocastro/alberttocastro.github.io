@@ -6,7 +6,7 @@ module.exports = {
       "script",
       {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-54JWFMN1CR",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-3F0G38Z61H",
       },
     ],
     [
