@@ -22,11 +22,21 @@ Knowledge in: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Word
 
 <work-experience>
 
+## Senior Software Engineer - Aloware (Full-time | Remote)
+
+### April 2022 - Current
+
+Worked in the development of the core functionalities of the company application, using PHP and Vue.js as main technologies. I was involved in developing new features and maintaining current functionalities, in an agile development environment. I developed an logging functionality that involved asynchronous jobs and query optimization.
+
+</work-experience>
+
+<work-experience>
+
 ## Software Engineer / Interview Engineer - BairesDev (Full-time)
 
-### October 2021 - Current
+### October 2021 - March 2022
 
-I interview software engineer and develop algorithms for question problems.
+Interviewed 50+ candidates for jobs in other companies. Applied dozen of coding challenges after braking the problem down and solving them myself. Made reports about the candidate's proficiency in the programming language, communication, and ability to solve the problem and identify complexities.
 
 </work-experience>
 
@@ -36,7 +46,7 @@ I interview software engineer and develop algorithms for question problems.
 
 ### November 2020 - October 2021
 
-I develop an internal solution for managing sustain teams in PHP. I also developed a prototype for field team client service. I also helped in sustaining large-scale applications in a microservice architecture.
+Developed tools for the back-office team, mainly using PHP. Created an application to track maps that were used by dozens of field operators, using Node.js and Vue.js. Also, participated in sustaining a large application, with thousands of daily users, that was built in Java, using microservices and a NoSQL database.
 
 </work-experience>
 
@@ -44,9 +54,9 @@ I develop an internal solution for managing sustain teams in PHP. I also develop
 
 ## Web Developer - Wode (Self-employed)
 
-### February 2019 - Current
+### February 2019 - October 2021
 
-Development and management of websites for presentation, e-commerce, and landing pages for companies, helping them to leverage sales, create an online presence, or make specific campaigns. I use PHP mainly. That's so because it helps to achieve accomplishments easily as I make custom solutions based on the client's needs, using the technology that would make the best results. Currently, most of the jobs are made using wordpress.
+Development and management of websites for presentation, e-commerce, and landing pages for companies, helping them to leverage sales, create an online presence, or make specific campaigns. I use PHP mainly for it’s simplicity in making custom solution for the clients.
 
 </work-experience>
 
@@ -56,7 +66,7 @@ Development and management of websites for presentation, e-commerce, and landing
 
 ### August 2020 - November 2020
 
-Development of software solutions in Java: new functions, increased security, and better performance. Also, I'd implement the applications into the client's servers. I'd also refactor the code to adapt it to best practices.
+Maintained and developed Java based applications used by 10+ corporations. Helped to reduce the code complexity considerably reducing the amount of effort to introduce new functionality. Also, maintained an API-based app made in Java and used by hundreds of people every week.
 
 </work-experience>
 
@@ -66,8 +76,7 @@ Development of software solutions in Java: new functions, increased security, an
 
 ### September 2018 - January 2019
 
-I helped to improve the flow of activities on the company by implementing software solutions. It helped to improve communication and database registry of clients and contracts.
-I started the development of a custom management system for ISPs, based on the differentiated business model of the company.
+Created a custom application that was used by hundreds of clients, retrieving live data from network stats from a Mikrotik device. Developed a custom website that were serving communications and tips for dozens of customers on a daily basis.
 
 </work-experience>
 
@@ -77,7 +86,7 @@ I started the development of a custom management system for ISPs, based on the d
 
 ### January 2018 - December 2018
 
-I helped to develop an innovative application for sales, using Ruby on Rails. It focused on scalability and user experience. Its focus was on resellers.
+Worked as a full-stack developer at e-commerce application that simplified the selling process for hundreds of resellers. Developed optimal backend functionality with fast database queries.
 
 </work-experience>
 
