@@ -13,7 +13,7 @@ module.exports = {
       "script",
       {},
       [
-        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-54JWFMN1CR');",
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-3F0G38Z61H');",
       ],
     ],
   ],
