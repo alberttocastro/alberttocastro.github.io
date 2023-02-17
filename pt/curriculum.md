@@ -23,11 +23,21 @@ Conhecimentos: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Wor
 
 <work-experience>
 
-## Engenheiro de Software / Engenheiro de Entrevistas - BairesDev (Tempo Integral)
+## Senior Software Engineer - Aloware (Tempo Integral | Remoto)
 
-### Outubro 2021 - Atualmente
+### Abril 2022 - Atualmente
 
-Entrevisto engenheiros de software para vagas em outras empresas, e desenvolvo algoritmos para resolução de problemas.
+Entrevistei 50+ candidatos para outras empresas. Apliquei dezenas de desafios, depois de ter resolvidos eles eu mesmo. Fiz relatórios sobre a habilidade dos candidatos na linguagem de programação, comunicação e abilidade em identificar a complexidade da solução que desenvolveram.
+
+</work-experience>
+
+<work-experience>
+
+## Engenheiro de Software / Engenheiro de Entrevistas - BairesDev (Tempo Integral | Remoto)
+
+### Outubro 2021 - Março 2022
+
+Entrevistei 50+ candidatos para outras empresas. Apliquei dezenas de desafios, depois de ter resolvidos eles eu mesmo. Fiz relatórios sobre a habilidade dos candidatos na linguagem de programação, comunicação e abilidade em identificar a complexidade da solução que desenvolveram.
 
 </work-experience>
 
@@ -37,7 +47,7 @@ Entrevisto engenheiros de software para vagas em outras empresas, e desenvolvo a
 
 ### Novembro 2020 - Outubro 2021
 
-Eu desenvolvo uma solução interna para gerenciar times de sustentação, em PHP. Eu também desenvolvi um protótipo para atendimento ao cliente em campo.
+Desenvolvi ferramentas de back-office, usando principalmente PHP. Criei uma aplicação envolvendo rotas geográficas usando Node.js e Vue.js. Também participei em um trabalho de sustentação de uma aplicação grande, com milhares de usuários por dia. Essa aplicação é construida em Java, numa arquitetura de microserviços, e com banco de dados não-relacional.
 
 </work-experience>
 
@@ -45,10 +55,9 @@ Eu desenvolvo uma solução interna para gerenciar times de sustentação, em PH
 
 ## Desenvolvedor Web - Wode (Autônomo)
 
-### Fevereiro 2019 - Atualmente
+### Fevereiro 2019 - Outubro 2021
 
-Desenvolvimento e gerenciamento de sites de apresentação, e-commerces e landing pages para empresas, ajudando a alavancar vendas, posicionar a empresa online, ou fazer campanhas específicas.
-O PHP é a linugagem mais utilizada por ser simples, e gerar resultados mais rapidamente. Fazemos soluções customizadas para a necessidade do cliente, utilizando a tecnologia que melhor trouxer resultados. Atualmente, a maioria dos trabalhos é feito em Wordpress.
+Desenvolvi e gerenciei sites de apresentação, e-commerces e landing pages para empresas locais. Essas ferramentas se converteram em resultados de venda, e fortalecimento da presença online. Para a maioria das ferramentas, foram usados PHP e Wordpress.
 
 </work-experience>
 
@@ -58,9 +67,7 @@ O PHP é a linugagem mais utilizada por ser simples, e gerar resultados mais rap
 
 ### Agosto 2020 - Novembro 2020
 
-Desenvolvimento em Java das soluções de software da empresa: novas funções, mais segurança e melhor desempenho.
-Implementação das aplicações nos servidores dos clientes.
-Refatoração de código para adequação às melhores práticas.
+Fiz o desenvolvimento e manutenção de uma aplicação de gestão de qualidade hospitalar usada em mais de 10 corporações. Ajudei na redução da complexidade do código, facilitando consideravelmente a introdução de novas funcionalidades. Também, participei da manutenção de uma aplicação mobile baseada em API feita em Java, usada por centemas de pessoas diariamente.
 
 </work-experience>
 
@@ -70,8 +77,7 @@ Refatoração de código para adequação às melhores práticas.
 
 ### Setembro 2018 - Janeiro 2019
 
-Melhoraria no fluxo das atividades implementando soluções de software para melhorar a comunicação e registro do banco de dados de informações sobre os clientes e contratos.
-Desenvolvimento do sistema de gestão de provedores de internet customizado ao modelo de negócio diferenciado da empresa em Ruby on Rails.
+Criei uma aplicação customizada para a gestão de um provedor de internet, integrando com um Mikrotik. Também criei o site da empresa, utilizado para comunicação oficial com as centenas de clientes que a empresa possui.
 
 </work-experience>
 
@@ -81,7 +87,7 @@ Desenvolvimento do sistema de gestão de provedores de internet customizado ao m
 
 ### Janeiro 2018 - Dezembro 2018
 
-Desenvolvimento de uma aplicação inovadora de vendas em Ruby on Rails, com foco em escalabilidade e simplicidade de uso, no ramo de revendedores de produtos de revistas.
+Trabalhei como desenvolvedor fullstack em uma aplicação de e-commerce para simplificar o processo de revenda de items por revistas. A aplicação foi construida com Ruby on Rails e Vue.js.
 
 </work-experience>
 
