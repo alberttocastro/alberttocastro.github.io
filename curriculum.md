@@ -32,7 +32,7 @@ Worked in the development of the core functionalities of the company application
 
 <work-experience>
 
-## Software Engineer / Interview Engineer - BairesDev (Full-time)
+## Software Engineer / Interview Engineer - BairesDev (Full-time | Remote)
 
 ### October 2021 - March 2022
 
