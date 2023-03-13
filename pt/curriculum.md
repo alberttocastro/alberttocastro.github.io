@@ -8,7 +8,7 @@
 
 Sou um desenvolvedor web apaixonado por tecnologia. Meu coração bate mais forte por back-end, mas também gosto muito de front-end. Atualmente estou terminando o curso de Ciência da Computação, e já atuo como desenvolvedor, tanto em projetos pessoais, como contratado. Gosto muito de aprender, e não paro de buscar desafios que me consolidem meu conhecimento, e que me ensinem um pouco sobre empreendedorismo.
 
-Stack principal: JavaScript (Node.JS, Express, Vue), PHP (Laravel), MySQL ou MongoDB
+Stack principal: PHP (Laravel), JavaScript (Node.JS, Express, Vue), MySQL ou MongoDB
 
 Conhecimentos: Git, Docker, Ruby on Rails, Java, CSS (+ SASS|SCSS), Flutter, Wordpress.
 
