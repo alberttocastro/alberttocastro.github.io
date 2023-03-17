@@ -9,6 +9,7 @@
 I'm a web developer passionate about technology. My heart beats faster for back-end development, but I also like front-end. Currently, I'm have a Computer Science Associate Degree, and I work as a developer, in personal projects, and also as an employee. I love learning, and I always look for challenges that can consolidate my knowledge, and that may teach me a little about entrepreneurship.
 
 Main Stack: PHP (Laravel), JavaScript (Vue), CSS (+ SASS|SCSS), MySQL
+
 Secondary Stack: JavaScript (Node.JS, Express), MongoDB
 
 Knowledge in: Git, Docker, Ruby on Rails, Java, Wordpress.
