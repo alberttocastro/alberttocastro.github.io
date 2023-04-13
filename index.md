@@ -13,7 +13,9 @@ AlberttoCastro
 
 <div id="subtitle">
 
-Web Developer
+Software Engineer
+
+PHP | Vue.js
 
 </div>
 </front-title>
@@ -28,27 +30,22 @@ About me
 
 </page-title>
 
-<icon-card class="mb-2" :hasIcon="true" icon="./web_lover_icon.svg">
+Hi there, I'm Alberto, a computer science graduate with a passion for technology and problem-solving. Working in tech since 2015, I've honed my skills in web development and contributed to the success of various companies by developing innovative solutions and improving systems performances.
 
-  Web Lover
+I'm also proud to say that I code in PHP since 2018. I have an eye for detail and a love for clean, scalable and maintainable code. Working with PHP has taught me to be a problem solver, finding creative solutions to complex issues. I'm always on the lookout for new technologies and tools to help me achieve the best results for my clients.
 
-</icon-card>
+When I'm not busy coding, you can find me busy with my other interests. I'm a constant reader, always looking to learn new things and expand my knowledge. I'm an avid gamer, and I enjoy losing myself in virtual worlds. And on occasion, I pick up my guitar and learn a new song or two.
 
-<icon-card class="mb-2" :hasIcon="true" icon="./dev_backend_icon.svg">
+I like the idea of knowing a little bit about many things, and I think my diverse interests have helped me to become a better problem solver, and a more creative person. I bring this same passion for learning and growth to my work, constantly seeking to improve and innovate.
 
-  Backend Dev
+My goal as a professional is to continue developing my technical skills and knowledge while helping companies achieve their business goals. I'm excited to collaborate with like-minded individuals and contribute to exciting projects. So feel free to explore my website and get in touch with me. I'd love to hear from you!
 
-</icon-card>
+<icon-card 
+  url="https://www.linkedin.com/in/alberttocastro/" 
+  class="mb-2" 
+  :hasIcon="false">
 
-<icon-card class="mb-2" :hasIcon="true" icon="./compartilhar_icon.svg">
-
-  Learning and Sharing
-
-</icon-card>
-
-<icon-card url="/curriculum" class="mb-2" :hasIcon="false">
-
-  _See my complete CV_
+  _See my complete CV on LinkedIn_
 
 </icon-card>
 
@@ -122,16 +119,96 @@ Contact
 
 </contact>
 
-<contact url="https://www.instagram.com/alberttocastro__" class="my-5" icon="../instagram_icon.svg">
+<contact url="https://stackoverflow.com/users/9867175/alberttocastro" class="my-5" icon="../stackoverflow.svg" >
 
-@alberttocastro__
+stackoverflow.com/users/9867175/alberttocastro
+
+</contact>
+
+<contact url="https://leetcode.com/alberttocastro/" class="my-5" icon="../leetcode.svg" >
+
+leetcode.com/alberttocastro/
 
 </contact>
 
 <contact url="mailto:albertto.programmer@gmail.com" class="my-5" icon="../email_icon.svg" >
 
-albertto.programmer @gmail.com
+albertto.programmer@gmail.com
 
 </contact>
 
 </full-page-center> 
+
+<full-page-center>
+
+<page-title class="my-5">
+
+Skills
+
+</page-title>
+
+<span class="text-white">
+
+## Backend
+
+</span>
+
+<skills class="mb-4">
+
+<img src="./.vuepress/public/icons/php.svg" />
+<img src="./.vuepress/public/icons/javascript.svg" />
+
+</skills>
+
+<skills class="mb-4">
+
+<img src="./.vuepress/public/icons/laravel.svg" />
+<img src="./.vuepress/public/icons/wordpress.svg" />
+<img src="./.vuepress/public/icons/nodejs.svg" />
+<img src="./.vuepress/public/icons/Ex_press.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Database
+
+</span>
+
+<skills class="mb-4">
+
+<img src="./.vuepress/public/icons/mysql.svg" />
+<img src="./.vuepress/public/icons/mongodb.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Frontend
+
+</span>
+
+<skills class="mb-4">
+
+<img src="./.vuepress/public/icons/css3.svg" />
+<img src="./.vuepress/public/icons/vuejs.svg" />
+<img src="./.vuepress/public/icons/bootstrap.svg" />
+<img src="./.vuepress/public/icons/materialize.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Other technologies
+
+</span>
+
+<skills class="mb-4">
+
+<img src="./.vuepress/public/icons/git.svg" />
+<img src="./.vuepress/public/icons/tux.svg" />
+<img src="./.vuepress/public/icons/docker.svg" />
+
+</skills>
+
+</full-page-center>

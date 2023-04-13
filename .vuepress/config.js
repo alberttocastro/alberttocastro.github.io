@@ -129,11 +129,11 @@ module.exports = {
   locales: {
     "/": {
       lang: "en-US",
-      description: "My Web Developer website",
+      description: "Alberttocastro | PHP Developer",
     },
     "/pt/": {
       lang: "pt-BR",
-      description: "Meu site de Desenvolvedor Web",
+      description: "Alberttocastro | PHP Developer",
     },
   },
   themeConfig: {
@@ -147,7 +147,6 @@ module.exports = {
         ariaLabel: "Idiomas",
         nav: [
           { link: "/pt/", text: "Início" },
-          { link: "/pt/curriculum", text: "Sobre mim (CV)" },
           { link: "/pt/blog/", text: "Artigos" },
         ],
       },
@@ -160,7 +159,6 @@ module.exports = {
         ariaLabel: "Languages",
         nav: [
           { link: "/", text: "Home" },
-          { link: "/curriculum", text: "About me (CV)" },
           { link: "/blog/", text: "Articles" },
         ],
       },

@@ -13,7 +13,9 @@ AlberttoCastro
 
 <div id="subtitle">
 
-Desenvolvedor Web
+Engenheiro de Software
+
+PHP | Vue.js
 
 </div>
 </front-title>
@@ -28,30 +30,22 @@ Sobre mim
 
 </page-title>
 
-<icon-card class="mb-2" :hasIcon="true" icon="../web_lover_icon.svg">
+Olá, eu sou Alberto, um graduado em ciência da computação com uma paixão por tecnologia e solução de problemas. Trabalhando com tecnologia desde 2015, aprimorei minhas habilidades em desenvolvimento web e contribuí para o sucesso de várias empresas desenvolvendo soluções inovadoras e contribuindo para a melhoria de desempenho.
 
-  Web Lover
+Também tenho orgulho de dizer que trabalho com PHP desde 2018. Tenho um olho para detalhes e um amor por código limpo, escalável e de fácil manutenção. Trabalhar com programação me ensinou a ser um solucionador de problemas, encontrando soluções criativas para questões complexas. Estou sempre estudando novas tecnologias e ferramentas para me ajudar a alcançar os melhores resultados nos meus projetos.
 
-</icon-card>
+Quando não estou ocupado programando, você vai me encontrar ocupaco com meus outros interesses. Sou um leitor constante, sempre procurando aprender coisas novas e expandir meu conhecimento. Também sou um ávido jogador e gosto de me perder em mundos virtuais. Além disso, às vezes, pego minha guitarra e aprendo uma ou duas músicas novas.
 
-<icon-card class="mb-2" :hasIcon="true" icon="../dev_backend_icon.svg">
+Gosto da ideia de saber de tudo um pouco e acho que meus interesses diversos me ajudaram a visalizar problemas de outro ângulo, e conseguir vencer melhor e, mais criativamente, os desafios. Trago essa mesma paixão por aprendizado e crescimento para o meu trabalho, sempre buscando melhorar e inovar.
 
-  Dev Backend
-
-</icon-card>
-
-<icon-card class="mb-2" :hasIcon="true" icon="../compartilhar_icon.svg">
-
-  Aprendendo e Compartilhando
-
-</icon-card>
+Meu objetivo como profissional é continuar desenvolvendo minhas habilidades técnicas, e ajudar empresas a alcançar seus objetivos de negócios. Estou animado para colaborar com pessoas de mentalidade semelhante e contribuir para projetos empolgantes. Então, sinta-se à vontade para explorar meu site e/ou entrar em contato comigo. Seria legal conversarmos um pouco!
 
 <icon-card
-  url="/pt/curriculum"
+  url="https://www.linkedin.com/in/alberttocastro/"
   class="mb-2" 
   :hasIcon="false">
 
-  _Veja meu currículo completo_
+  _Veja meu currículo completo no LinkedIn_
 
 </icon-card>
 
@@ -156,16 +150,96 @@ Contato
 
 </contact>
 
-<contact url="https://www.instagram.com/alberttocastro__" class="my-5" icon="../instagram_icon.svg">
+<contact url="https://stackoverflow.com/users/9867175/alberttocastro" class="my-5" icon="../stackoverflow.svg" >
 
-@alberttocastro__
+stackoverflow.com/users/9867175/alberttocastro
+
+</contact>
+
+<contact url="https://leetcode.com/alberttocastro/" class="my-5" icon="../leetcode.svg" >
+
+leetcode.com/alberttocastro/
 
 </contact>
 
 <contact url="mailto:albertto.programmer@gmail.com" class="my-5" icon="../email_icon.svg" >
 
-albertto.programmer @gmail.com
+albertto.programmer@gmail.com
 
 </contact>
 
-</full-page-center> 
+</full-page-center>
+
+<full-page-center>
+
+<page-title class="my-5">
+
+Skills
+
+</page-title>
+
+<span class="text-white">
+
+## Backend
+
+</span>
+
+<skills class="mb-4">
+
+  <img src="../.vuepress/public/icons/php.svg" />
+  <img src="../.vuepress/public/icons/javascript.svg" />
+
+</skills>
+
+<skills class="mb-4">
+
+  <img src="../.vuepress/public/icons/laravel.svg" />
+  <img src="../.vuepress/public/icons/wordpress.svg" />
+  <img src="../.vuepress/public/icons/nodejs.svg" />
+  <img src="../.vuepress/public/icons/Ex_press.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Bancos de Dados
+
+</span>
+
+<skills class="mb-4">
+
+  <img src="../.vuepress/public/icons/mysql.svg" />
+  <img src="../.vuepress/public/icons/mongodb.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Frontend
+
+</span>
+
+<skills class="mb-4">
+
+  <img src="../.vuepress/public/icons/css3.svg" />
+  <img src="../.vuepress/public/icons/vuejs.svg" />
+  <img src="../.vuepress/public/icons/bootstrap.svg" />
+  <img src="../.vuepress/public/icons/materialize.svg" />
+
+</skills>
+
+<span class="text-white">
+
+## Outras tecnologias
+
+</span>
+
+<skills class="mb-4">
+
+  <img src="../.vuepress/public/icons/git.svg" />
+  <img src="../.vuepress/public/icons/tux.svg" />
+  <img src="../.vuepress/public/icons/docker.svg" />
+
+</skills>
+
+</full-page-center>

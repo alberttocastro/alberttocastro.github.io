@@ -2,7 +2,7 @@
   <b-button :href="url" target="_blank" block variant="link">
     <div class="d-flex align-content-center">
       <div class="flex-grow-0">
-        <img :src="icon" />
+        <img :src="icon" style="width: 60px; height: 60px;" />
       </div>
       <div class="flex-grow-1 d-flex align-items-center">
         <div class="flex-grow-1 text-center m-0 px-4">

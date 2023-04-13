@@ -1,6 +1,6 @@
 <template>
   <b-card no-body class="bg-glass rounded-lg py-2">
-    <a :href="url" v-if="url">
+    <a :href="url" target="_blank" v-if="url">
       <div class="card-body">
         <div class="d-flex align-items-center">
           <div class="d-flex flex-grow-0 justify-content-center">
