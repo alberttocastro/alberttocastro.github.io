@@ -7,12 +7,6 @@ layout: LinksLayout
 <span class="font-weight-bolder text-white" style="font-size: 1.7rem">@alberttocastro</span>
 </div>
 
-<link-component link="/pt/curriculum" icon="file-earmark-text-fill">
-
-Meu CV
-
-</link-component>
-
 <link-component class="mt-3" link="https://www.linkedin.com/in/alberttocastro/" icon="linkedin">
 
 LinkedIn
@@ -30,10 +24,3 @@ Blog
 Artigo: Como começar no mundo da programação - Parte 1
 
 </link-component>
-
-<link-component class="mt-3" link="https://www.facebook.com/alberttocastro0" icon="facebook">
-
-Facebook
-
-</link-component>
-
