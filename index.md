@@ -15,7 +15,7 @@ AlberttoCastro
 
 Software Engineer
 
-<typing-name :strings="['PHP Developer', 'Vue.js Developer', 'Problem Solver']" />
+<typing-name :strings="['Senior software engineer', 'Full stack engineer', 'Tech Lead']" />
 
 </div>
 </front-title>

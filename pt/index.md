@@ -15,7 +15,7 @@ AlberttoCastro
 
 Engenheiro de Software
 
-<typing-name :strings="['Desenvolvedor PHP', 'Desenvolvedor Vue.js', 'Solucionador de Problemas']" />
+<typing-name :strings="['Engenheiro de Software Sênior', 'Desenvolvedor Fullstack', 'Tech lead']" />
 
 </div>
 </front-title>
