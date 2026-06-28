@@ -2,7 +2,7 @@
 layout: LargeLayout
 ---
 
-<full-page-center background="https://bl6pap003files.storage.live.com/y4mPStY0m22jPlDTFf5zpmLLixTHt-xMD4h2L5ykt_51CKK5WHeqDGoqT_spsDoBSDvKx4xS2a_vzOURjmcssGPKYPnbhPIuQGd5u4gkIQN7RFEr_DpW2l6MFEGckx1dLyjZ540U4jU4niCfzkciO9mRAe5Db0nyy6QcvDlAdHPmHnGXCMiJCyKHDWbDoeW71I_?width=958&height=639&cropmode=none">
+<full-page-center background="radial-gradient(circle at 80% 20%, #1b1035 0%, #0a0b10 70%)">
 
 <front-title>
 <div id="name">
@@ -15,16 +15,16 @@ AlberttoCastro
 
 Software Engineer
 
-PHP | Vue.js
+<typing-name :strings="['PHP Developer', 'Vue.js Developer', 'Problem Solver']" />
 
 </div>
 </front-title>
 
 </full-page-center>
 
-<full-page-center>
+<full-page-center background="linear-gradient(to bottom, #0a0b10, #11131c)">
 
-<page-title class="mb-3">
+<page-title class="mb-4">
 
 About me
 
@@ -42,7 +42,7 @@ My goal as a professional is to continue developing my technical skills and know
 
 <icon-card 
   url="https://www.linkedin.com/in/alberttocastro/" 
-  class="mb-2" 
+  class="mt-4" 
   :hasIcon="false">
 
   _See my complete CV on LinkedIn_
@@ -51,15 +51,15 @@ My goal as a professional is to continue developing my technical skills and know
 
 </full-page-center>
 
-<full-page-center style="background-color: #3E213D">
+<full-page-center background="linear-gradient(135deg, #11131c 0%, #1a1030 100%)">
 
-<page-title class="mb-3">
+<page-title class="mb-4">
 
 The website
 
 </page-title>
 
-<div class="subtitle">
+<div class="subtitle mb-4">
 
 ## Articles
 
@@ -67,39 +67,11 @@ Tips, opinion and knowledge
 
 </div>
 
-<article-card 
-  class="mb-2"
-  url="/blog/2021/hello-world/"
-  src="https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none"
->
-
-::: slot date
-21/09/2021
-:::
-
-Hello world
-
-</article-card>
-
-<div class="subtitle">
-
-## Portfolio
-
-Projects I'm working on
-
-</div>
-
-<article-card class="mb-2 pt-3" src="https://bl6pap003files.storage.live.com/y4m9rE5ly-7byhq1aYx7VvgOyQIzKenEo3LucY-kqX13-QNQ68T26yXEps_J9tqvko-ZXfIZ_mIG-94GfnEqyKCp5rnQ4tLE6USDDhf-WVPIdHfH2-cn32PLb2g09toFacNVV7bFb3lx4XrVjq1pjr1mUFGJ1GZeo1RH49-T_yAhy1MBboYKhU8hIKU9D7Ld9um?width=1920&height=2880&cropmode=none">
-
-
-<span> _Coming soon..._ </span>
-
-
-</article-card>
+<latest-articles />
 
 </full-page-center>
 
-<full-page-center>
+<full-page-center background="linear-gradient(to bottom, #1a1030, #0a0b10)">
 
 <page-title class="my-5">
 
@@ -107,31 +79,20 @@ Contact
 
 </page-title>
 
-<contact url="https://www.linkedin.com/in/alberttocastro/" class="my-5" icon="../linkedin_icon.svg">
+<contact url="https://www.linkedin.com/in/alberttocastro/" class="my-4" icon="../linkedin_icon.svg">
 
 /in/alberttocastro
 
 </contact>
 
-<contact url="https://github.com/alberttocastro" class="my-5" icon="../github_icon.svg">
+<contact url="https://github.com/alberttocastro" class="my-4" icon="../github_icon.svg">
 
 /alberttocastro
 
 </contact>
 
-<contact url="https://stackoverflow.com/users/9867175/alberttocastro" class="my-5" icon="../stackoverflow.svg" >
 
-stackoverflow.com/users/9867175/alberttocastro
-
-</contact>
-
-<contact url="https://leetcode.com/alberttocastro/" class="my-5" icon="../leetcode.svg" >
-
-leetcode.com/alberttocastro/
-
-</contact>
-
-<contact url="mailto:albertto.programmer@gmail.com" class="my-5" icon="../email_icon.svg" >
+<contact url="mailto:albertto.programmer@gmail.com" class="my-4" icon="../email_icon.svg" >
 
 albertto.programmer@gmail.com
 
@@ -139,7 +100,7 @@ albertto.programmer@gmail.com
 
 </full-page-center> 
 
-<full-page-center>
+<full-page-center background="linear-gradient(to bottom, #0a0b10, #121020)">
 
 <page-title class="my-5">
 
