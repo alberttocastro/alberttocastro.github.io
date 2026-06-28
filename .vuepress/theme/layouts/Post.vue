@@ -39,11 +39,18 @@
         </div>
         <b-container class="shadow-lg pt-5">
           <Content class="mb-5" />
+          <div class="my-5 text-center" v-if="$page.frontmatter.devto_url">
+            <a 
+              :href="$page.frontmatter.devto_url" 
+              target="_blank" 
+              class="btn-devto-comment"
+            >
+              {{ $localePath === '/pt/' ? 'Comentar no DEV.to' : 'Comment on DEV.to' }}
+            </a>
+          </div>
           <div>
             <social-share is-plain />
           </div>
-          <hr />
-          <Vssue :title="$page.title" />
         </b-container>
         <!-- </b-col> -->
         <!-- <b-col lg="3" v-if="false">
@@ -93,5 +100,23 @@ export default {
 
 #post-header {
   background-position: center;
+}
+
+.btn-devto-comment {
+  display: inline-block;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff !important;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-devto-comment:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+  text-decoration: none;
 }
 </style>

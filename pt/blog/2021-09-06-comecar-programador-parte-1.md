@@ -1,28 +1,29 @@
 ---
+persisted: true
+title: "Como começar no mundo da programação - Parte 1"
 date: 2021-09-06
-excerpt: Está pensando em começar na área de programação? Aqui eu conto quais coisas eu considero importante que você saiba nesse momento da sua carreira.
-title: Como começar no mundo da programação - Parte 1
-image: https://bl6pap003files.storage.live.com/y4mMdT7vbIZZE7WtIFCkT3Ou4zXSa5A5zGoPpE4PGNapNkeYnxUl3S3zJk7ncE5PMYDcynUiMuEqLWCm-vDu2yDDzK_sj7vPCobYe_KVRxXFHv_tCRgeLDqJEhbgcpdy_RdPaERFaZ9nGcimTbT_EFowhika_xj5BLYpRSz1AEBPu_TtZkWlpCGU-MUayVj6HmU?width=1920&height=1080&cropmode=none
+image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxalwrjpjtcaljdvtbyqd.png"
 tag:
-  - Iniciante
-  - Carreira
+  - portuguese
+devto: true
+devto_url: "https://dev.to/alberttocastro/como-comecar-no-mundo-da-programacao-parte-1-kbn"
 ---
 
 As áreas de tecnologia estão em alta. Se você está lendo este blog, é provável que você esteja ao menos pensando em começar na área. Aqui vão algumas considerações sobre começar na área de desenvolvimento software.
 
-# O que um programador faz
+## O que um programador faz
 
 Você que está iniciando, saberia descrever o que um programador faz? É comum os familiares de pessoas que trabalham com tecnologia não entenderem o que elas fazem. Tias, nós não consertamos impressoras, não instalamos windows, e não hackeamos o facebook dos outros.
 
 E às vezes as próprias pessoas que querem entrar no ramo de software não entendem exatamente o que fazemos no nosso dia a dia.
 
-Vou resumir aqui, mas futuramente pretendo falar mais sobre o dia a dia de um programador. Caso queira saber algo específico, coloca aqui nos comentários.
+Vou resumir aqui, mas futuramente pretendo falar mais sobre o dia a dia de um programador.
 
 Na minha visão, programador/desenvolvedor é o profissional que produz software com o objetivo de criar sistemas que automatizam funções necessárias, dos mais diversos tipos. Definitivamente, a ferramenta central desse processo todo são as linguagens de programação, isto é, o programador utiliza a linguagem de programação para definir como esse processo automática vai acontecer.
 
 É claro que existem diversas outras coisas relacionadas a isso, mas acho que essa definição é bem abrangente.
 
-# Por onde eu devo começar?
+## Por onde eu devo começar?
 
 Caso você esteja decidido a entrar na área de software, mas esteja na estaca zero, quero deixar aqui o caminho que eu acredito ser o mais interessante para começar.
 
@@ -38,6 +39,6 @@ Daí, **aplique o que você ta aprendendo de maneira prática**. Uma das coisas 
 
 Caso você siga esses 3 passos, você já vai estar seguindo um bom caminho. É claro que não se resume a isso. Use esses pontos como um mapa geral para o início da sua caminhada. Pesquise também outros pontos de vista. Quanto mais seguro você tiver de onde você quer chegar, mais fácil saber o que fazer.
 
-Se ficou alguma dúvida, pode mandar nos comentários aqui em baixo. No próximo artigo volto para falar mais sobre minha opinião em relação a duas dúvidas comuns: Qual linguagem de programação escolher? E eu preciso saber inglês?
+No próximo artigo volto para falar mais sobre minha opinião em relação a duas dúvidas comuns: Qual linguagem de programação escolher? E eu preciso saber inglês?
 
 Por ora, espero que tenha gostado deste artigo. Obrigado por ler até aqui, e até a próxima!

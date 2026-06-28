@@ -1,8 +1,11 @@
 ---
+persisted: true
 date: 2021-05-30
 excerpt: In this post, understand why this blog was made. Get to know what you can expect, and how can you contribute!
 title: Hello World
-image: https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&height=1280&cropmode=none
+image: https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/axtd7d1fiuvrds3eec0v.png
+devto: true
+devto_url: "https://dev.to/alberttocastro/hello-world-3i20"
 tag:
   - Blog
   - Portfolio

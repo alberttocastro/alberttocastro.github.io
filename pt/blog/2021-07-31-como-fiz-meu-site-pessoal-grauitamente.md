@@ -1,12 +1,12 @@
 ---
+persisted: true
+title: "Como fiz meu site pessoal gratuitamente"
 date: 2021-07-32
-excerpt: Neste post, entenda como eu hospedo este site no Github sem pagar nada. Entenda também o que são sites estáticos, e algumas ferramentas para te ajudar a criar os seus.
-title: Como fiz meu site pessoal gratuitamente
-image: https://bl6pap003files.storage.live.com/y4mATADhSS9NJXZhKp2slkuGlFJp7u1cD3HEHFi7cOw9tvyH4KnlfsvPlQB3famBBeaK6GwJIcHbbUaLFJP8KIPrjUAu1WOHmX3PY4rPootpYcahMXSkeODxNaf6Tn5gbtWHZ9Z3CUQf0JUPczapBYsWyRoNHOFaGCGZ071h_wPjicVwbBVC9uImboJhk3d0IMj?width=1920&height=1200&cropmode=none
+image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnxfzz8zktnqz6bp4upeb.png"
 tag:
-  - Gerador de site estático
-  - Hospedagem
-  - Portfolio
+  - portuguese
+devto: true
+devto_url: "https://dev.to/alberttocastro/como-fiz-meu-site-pessoal-gratuitamente-3alk"
 ---
 
 Se você está entrando no mundo da programação, talvez tenha percebido que na maioria das vezes um computador vai ter que rodar uma séria de instruções para que finalmente seu site seja retornado na requisição. Caso você tenha avançado um pouco, já tenha feito algo no seu computador e acessado seu projeto de maneira incrível com um "localhost", e agora está pesquisando como colocar seu site na internet, você já percebeu que esse computador que roda seu site para a internet tem um custo.
@@ -23,7 +23,7 @@ O site da agencia Macan deu uma definição simples, que eu achei muito boa:
 
 Ou seja, um site estático não precisa ser processado por um computador no servidor pra ser entregue ao usuário. Ele já está pronto, e só precisa ser entregue.
 
-Apesar disso, esses sites podem ter alguma interatividade. Por exemplo, aqui no blog você pode fazer comentários nos artigos. Só que o detalhe é que esse conteúdo não vai ficar no próprio site. Em outro post explico como consigo fazer isso. Mas se já quiser ir pesquisando, eu uso o Vssue para isso acontecer.
+Apesar disso, esses sites podem ter alguma interatividade. Por exemplo, nos artigos integrados com o DEV.to, você pode deixar seus comentários diretamente na plataforma, o que ajuda a manter a discussão centralizada e o site leve.
 
 # Github pages
 

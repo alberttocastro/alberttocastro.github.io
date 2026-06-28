@@ -1,16 +1,17 @@
 ---
+persisted: true
+title: "Como começar no mundo da programação - Parte 2"
 date: 2021-12-31
-excerpt: Qual você diria que é a melhor linguagem de programação? E inglês? Precisa saber? Vem descobrir!
-title: Como começar no mundo da programação - Parte 2
-image: https://drive.google.com/uc?export=view&id=1KH45NzTzNO-9KRFX9baqqKI3nLH5zStl
+image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6034a38xw7ps7fcdqz6g.png"
 tag:
-  - Iniciante
-  - Carreira
+  - portuguese
+devto: true
+devto_url: "https://dev.to/alberttocastro/como-comecar-no-mundo-da-programacao-parte-2-1550"
 ---
 
 É muito comum classificarmos a profissão de quem cria códigos de programação em um único rótulo. "_Se faz código, é programador. E eu também quero ser programador_", você talvez pense. Mas a verdade é que desenvolvimento de software é um verdadeiro universo. A depender do caminho que você escolha, muitas vezes você vai se deparar com uma competição entre linguagens, frameworks e tecnologias. É importante estar preparado para lidar com isso quando a hora de decidir chegar.
 
-# Qual é a melhor linguagem?
+## Qual é a melhor linguagem?
 
 Que língua você diria que é a melhor: português ou inglês? Deixando de lado preferências pessoais, a verdade é que a melhor língua vai depender de onde você está. Se tiver na Inglaterra, cercado por nativos, não vai adiantar muito você falar português fluentemente. A comunicação dificilmente vai fluir. Certamente esse cenário seria similar se a situação fosse invertida.
 
@@ -22,7 +23,7 @@ Um outro ponto importante a se considerar para escolher uma linguagem é produti
 
 Mas se existem tantas linguagens, qual eu devo aprender primeiro? Talvez seja útil para você pensar no seguinte: Qual linguagem está mais estabelecida no mercado? Qual eu consigo achar mais vagas? Qual está mais alinhada com a carreira que eu quero seguir? E se tudo tiver muito empatado, pense em qual é a mais fácil de aprender.
 
-# E eu preciso falar inglês?
+## E eu preciso falar inglês?
 
 Falando em aprender linguagens, vem a dúvida se vale a pena investir tempo em aprender inglês. Minha opinião é que vale sim. Alguns vão argumentar que não é uma obrigação, e de certa forma essa pessoa está certa. Mas considere alguns aspectos:
 
@@ -32,7 +33,7 @@ Falando em aprender linguagens, vem a dúvida se vale a pena investir tempo em a
 
 (2) **Oportunidades de trabalho**. O mundo hoje é cada vez mais globalizado e integrado. Código é código em qualquer lugar do mundo. Isso gera cada vez mais oportunidades. O mercado nacional é muito aquecido, e pode ser que você nunca queira sair desse contexto para ir para fora. Mas trabalhar pra empresas de fora pode te dar a oportunidade de ganhar um salário melhor sem precisar se matar de trabalhar. Ganhar em dólar, por exemplo, pode fazer com que o número final seja multiplicado por 5. E muitas vezes existem tantas vantagens para você quanto para a empresa que te contrata.
 
-# Conclusão
+## Conclusão
 
 Existem muitas coisas a se considerar quando estiver entrando no mercado de TI. Mas vale a pena! Considere tudo que está envolvido, e venha pra festa.
 
