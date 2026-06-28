@@ -35,16 +35,35 @@ export default {
 };
 </script>
 
-<style scoped>
-p {
+<style lang="scss" scoped>
+@import "../theme/styles/variables.scss";
+
+.card {
+  border: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  width: 100%;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: none;
+  
+  ::v-deep p, ::v-deep em, ::v-deep span {
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+::v-deep p {
   margin-bottom: 0;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 </style>
 
-<style lang="scss" scoped>
-a:hover {
-  &, p {
-    text-decoration:none;
-  }
-}
-</style>

@@ -2,21 +2,22 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 
-$primary: #2d142c;
-$secondary: #929292;
-$accent: #3d2f97;
+$primary: #0a0b10;
+$secondary: #64748b;
+$accent: #6366f1;
 
-$success: #1f8b38;
-$danger: #c02e3c;
-$warning: #dea908;
-$info: #1491a5;
-$light: #e9e9e9;
-$dark: #313539;
+$success: #10b981;
+$danger: #ef4444;
+$warning: #f59e0b;
+$info: #14b8a6;
+$light: #f8fafc;
+$dark: #0f172a;
 $white: #ffffff;
 
-$glass: #4E354D;
+$glass: rgba(18, 18, 29, 0.6);
+$glass-border: rgba(255, 255, 255, 0.08);
 
-$text: #d7d7d7;
+$text: #cbd5e1;
 
 $theme-colors: (
   "primary": $primary,
@@ -33,3 +34,4 @@ $theme-colors: (
 
   "glass": $glass
 );
+
