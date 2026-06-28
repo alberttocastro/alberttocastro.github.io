@@ -1,6 +1,7 @@
 <template>
   <b-nav-item-dropdown
     :text="this.$themeConfig.locales[this.$localePath].selectText"
+    right
   >
     <b-dropdown-item
       v-for="lang in this.languages"
