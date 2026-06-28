@@ -94,19 +94,6 @@ module.exports = {
         },
       },
     ],
-    [
-      "@vssue/vuepress-plugin-vssue",
-      {
-        // set `platform` rather than `api`
-        platform: "github",
-
-        // all other options of Vssue are allowed
-        owner: "alberttocastro",
-        repo: "alberttocastro.github.io",
-        clientId: "40a27404f84d96eccab3",
-        clientSecret: "1d20a225a42ec9106211e884c9d5b468b517be05",
-      },
-    ],
   ],
   title: "@alberttocastro - Web Developer",
   module: {
@@ -119,7 +106,7 @@ module.exports = {
           {
             loader: "sass-loader",
             options: {
-              implementation: require("node-sass"),
+              implementation: require("sass"),
             },
           },
         ],
