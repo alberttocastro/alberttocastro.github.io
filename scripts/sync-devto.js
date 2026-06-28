@@ -1,5 +1,45 @@
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
+
+// Helper to perform HTTP GET requests with JSON response and a timeout, compatible with Node 14+
+function customFetch(url, options = {}) {
+  return new Promise((resolve, reject) => {
+    const timeout = options.timeout || 15000;
+    let timedOut = false;
+
+    const req = https.get(url, {
+      headers: options.headers || {}
+    }, (res) => {
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        return reject(new Error(`Request failed with status ${res.statusCode} ${res.statusMessage}`));
+      }
+
+      let rawData = '';
+      res.on('data', (chunk) => { rawData += chunk; });
+      res.on('end', () => {
+        if (timedOut) return;
+        resolve({
+          ok: true,
+          statusText: res.statusMessage,
+          json: async () => JSON.parse(rawData),
+          text: async () => rawData
+        });
+      });
+    });
+
+    req.on('error', (err) => {
+      if (timedOut) return;
+      reject(err);
+    });
+
+    req.setTimeout(timeout, () => {
+      timedOut = true;
+      req.destroy();
+      reject(new Error(`Request to ${url} timed out after ${timeout}ms`));
+    });
+  });
+}
 
 const USERNAME = 'alberttocastro';
 const BLOG_DIRS = [
@@ -61,7 +101,7 @@ async function syncArticles() {
     }
 
     console.log(`Fetching articles for dev.to user: ${USERNAME}...`);
-    const listRes = await fetch(`https://dev.to/api/articles?username=${USERNAME}&page=1&per_page=100&t=${Date.now()}`, {
+    const listRes = await customFetch(`https://dev.to/api/articles?username=${USERNAME}&page=1&per_page=100&t=${Date.now()}`, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
       }
@@ -74,7 +114,7 @@ async function syncArticles() {
 
     for (const article of articles) {
       console.log(`Fetching detailed content for article ID ${article.id}: "${article.title}"...`);
-      const detailRes = await fetch(`https://dev.to/api/articles/${article.id}`, {
+      const detailRes = await customFetch(`https://dev.to/api/articles/${article.id}`, {
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
