@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
@@ -31,14 +33,10 @@ jobs:
           git add .
           git commit -m 'Deploy'
           git push origin `git subtree split --prefix docs main`:refs/heads/deploy --force
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
+      - name: Checkout deploy branch
         uses: actions/checkout@v4
+        with:
+          ref: deploy
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
